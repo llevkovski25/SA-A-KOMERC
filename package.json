@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",
+    "@vercel/analytics": "^2.0.1",
     "clsx": "^2.1.1",
     "country-flag-icons": "^1.6.20",
     "framer-motion": "^13.1.0",
