@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "siteName": "SAŠA KOMERC",
+    "titleSuffix": "SAŠA KOMERC | International Transport & Freight Forwarding",
+    "pages": {
+      "home": {
+        "title": "SAŠA KOMERC — International Road Transport & Freight Forwarding Since 1992",
+        "description": "International road transport, freight forwarding and logistics from Skopje. 34+ years of experience, 40+ trucks, partnership with LKW Walter. Available 24/7."
+      },
+      "about": {
+        "title": "About Us | SAŠA KOMERC",
+        "description": "The story of SAŠA KOMERC — a family freight forwarding company founded in 1992, with over three decades of trust on European roads."
+      },
+      "services": {
+        "title": "Services | SAŠA KOMERC",
+        "description": "International road transport, freight forwarding and logistics, and trucking services for clients in the Netherlands, Germany, Sweden and Belgium."
+      },
+      "fleet": {
+        "title": "Fleet | SAŠA KOMERC",
+        "description": "A fleet of 40+ trucks, tractor units with semi-trailers, Euro 5 and Euro 6 standard, maximum capacity of 25 tonnes."
+      },
+      "gallery": {
+        "title": "Gallery | SAŠA KOMERC",
+        "description": "A look inside the office and everyday life of the SAŠA KOMERC team in Skopje."
+      },
+      "contact": {
+        "title": "Contact | SAŠA KOMERC",
+        "description": "Request a quote for international transport. Available 24/7 — phone, email, WhatsApp and Viber."
+      },
+      "servicesDetail": {
+        "transport": {
+          "title": "International Road Transport | SAŠA KOMERC",
+          "description": "Round trip tours NL-SE-NL and DE-SE-DE with a fleet of 40+ semi-trailers, Euro 5/6, in partnership with LKW Walter."
+        },
+        "forwarding": {
+          "title": "Freight Forwarding & Logistics | SAŠA KOMERC",
+          "description": "Full coordination, documentation and organisation of international transport across Europe."
+        },
+        "trucking": {
+          "title": "Trucking — Intermodal Transport | SAŠA KOMERC",
+          "description": "Decoupling and coupling of trailers at rail terminals and ports, in cooperation with LKW Walter."
+        }
+      }
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "fleet": "Fleet",
+    "partners": "Partners",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "getQuote": "Request a Quote",
+    "callUs": "Call Us"
+  },
+  "hero": {
+    "eyebrow": "International transport & freight forwarding since 1992",
+    "title": "Your cargo, our responsibility.",
+    "subtitle": "SAŠA KOMERC is a company with many years of experience in organizing and coordinating international transport across Europe. We connect your business with reliable transport and professional service — from the first call to successful delivery.",
+    "ctaPrimary": "Request a Quote",
+    "ctaSecondary": "Contact Us",
+    "scrollHint": "Scroll",
+    "trust": {
+      "years": "34+",
+      "yearsLabel": "years of experience",
+      "trucks": "40+",
+      "trucksLabel": "trucks in our fleet",
+      "countries": "4",
+      "countriesLabel": "countries in Europe",
+      "support": "24/7",
+      "supportLabel": "availability"
+    }
+  },
+  "about": {
+    "eyebrow": "Our story",
+    "title": "34 years on Europe's roads",
+    "paragraph1": "SAŠA KOMERC DOOEL was founded in 1992 by Saša Spasovski, at a time when international transport out of Macedonia demanded more than just a fleet of trucks — it demanded persistence, reputation, and personal relationships built over years. What began as a modest venture has grown into a recognised freight forwarding company that today operates a fleet of over 40 trucks and connects clients from Skopje to destinations across Western and Northern Europe every single day.",
+    "paragraph2": "Through all these decades, the philosophy has stayed the same: every shipment is treated personally, every deadline is honoured as our own, and every client speaks directly to the people who actually run the business. That closeness — combined with a seriousness that matches European standards — is what allowed us to build a long-term partnership with LKW Walter, one of Europe's leading transport organisations, and to earn the trust of partners who need consistency, not just haulage.",
+    "paragraph3": "Today, the SAŠA KOMERC team, led by founder Saša Spasovski and Marija Jordanova, continues to work with the same dedication the company was built on more than three decades ago — available 24 hours a day, 7 days a week, for every client who needs a partner they can truly rely on.",
+    "missionTitle": "Mission",
+    "missionText": "To provide fast, reliable and transparent international transport and freight forwarding, building lasting partnerships through personal responsibility and professionalism at every step of the journey.",
+    "visionTitle": "Vision",
+    "visionText": "To remain a recognised, trusted family carrier that matches the flexibility and experience of the largest European logistics companies, without ever losing the personal touch in our work."
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Services built for international transport",
+    "subtitle": "Three interconnected services that carry your cargo from point A to point B — without interruptions, without ambiguity, and without unnecessary waiting.",
+    "learnMore": "Learn More",
+    "showLess": "Show Less",
+    "viewDetails": "Full Details",
+    "items": {
+      "transport": {
+        "title": "International Road Transport",
+        "icon": "truck",
+        "summary": "Direct transport of goods with our own fleet of 40+ trucks along the NL-SE-NL and DE-SE-DE round trip routes, with full responsibility for the timeliness and safety of the cargo.",
+        "detail": "Our transport relies on well-planned round trips — Netherlands–Sweden–Netherlands and Germany–Sweden–Germany — which allows maximum capacity utilisation and shorter delivery times in both directions. The fleet consists of tractor units with semi-trailers, Euro 5 and Euro 6 standard, with a maximum capacity of up to 25 tonnes per vehicle. Our drivers operate both our own trailers and trailers from the network of our partner LKW Walter, which further increases flexibility when picking up and delivering cargo across Western Europe. Every shipment is tracked from departure to delivery, with direct communication with the client at every stage.",
+        "bullets": [
+          "Round trip routes NL–SE–NL and DE–SE–DE",
+          "40+ trucks, Euro 5 and Euro 6 standard",
+          "Maximum capacity of up to 25 tonnes",
+          "Own trailers plus trailers from the LKW Walter network"
+        ]
+      },
+      "forwarding": {
+        "title": "Freight Forwarding & Logistics",
+        "icon": "route",
+        "summary": "Full organisation of the transport — from documentation and customs coordination to route planning and constant communication with partners across Europe.",
+        "detail": "Freight forwarding is the heart of what we do. Before a shipment ever hits the road, our team coordinates every step required for smooth, legally compliant international transport — transport documentation, CMR consignment notes, aligning loading and unloading windows, and continuous communication with shippers, consignees and partner carriers in the Netherlands, Germany, Sweden and Belgium. With decades of experience working with European partners, we know how to anticipate potential delays and act early, instead of waiting for a problem to appear on its own. The result is transport that runs smoothly, with clear communication at every step, whether it's a one-off shipment or a regular monthly route.",
+        "bullets": [
+          "Complete transport documentation and CMR",
+          "Coordination with partners across Europe",
+          "Route planning and loading/unloading scheduling",
+          "Direct 24/7 communication with our team"
+        ]
+      },
+      "trucking": {
+        "title": "Trucking — Intermodal Transport",
+        "icon": "network",
+        "summary": "Decoupling and coupling of trailers at rail terminals and ports, for flexible combinations of road, rail and sea transport.",
+        "detail": "Alongside classic road transport, we also offer a trucking service — decoupling and coupling trailers at rail terminals and port facilities, in cooperation with the LKW Walter network. This service allows cargo to travel part of the way by rail or sea, and part by road, depending on what is fastest, most economical and safest for a specific shipment. For clients, this means greater flexibility in planning, a smaller environmental footprint on longer legs, and access to an intermodal network that spans all of Europe. Our team coordinates all the logistics around the terminals — precise arrival times, correct coupling/decoupling, and a seamless continuation of transport to the final destination.",
+        "bullets": [
+          "Operations at terminals and ports across Europe",
+          "Combination of road, rail and sea transport",
+          "Partnership with the LKW Walter network",
+          "More flexible and more sustainable route planning"
+        ]
+      }
+    }
+  },
+  "destinations": {
+    "eyebrow": "Where we deliver",
+    "title": "Coverage across Western and Northern Europe's key markets",
+    "subtitle": "From Skopje to Europe's most developed logistics markets — with regular round trip routes and a network built over the years.",
+    "origin": "Skopje, Macedonia",
+    "originLabel": "Origin",
+    "countries": {
+      "germany": {
+        "name": "Germany",
+        "description": "A key destination on the DE-SE-DE route, with regular transport to industrial and logistics hubs across the country."
+      },
+      "netherlands": {
+        "name": "Netherlands",
+        "description": "One of Europe's most important logistics hubs, and the start/end point of our NL-SE-NL round trip route."
+      },
+      "sweden": {
+        "name": "Sweden",
+        "description": "The northern endpoint of both our round trip routes — NL-SE-NL and DE-SE-DE."
+      },
+      "belgium": {
+        "name": "Belgium",
+        "description": "Part of our Western European destination network, with access to some of the largest ports in Europe."
+      }
+    }
+  },
+  "fleet": {
+    "eyebrow": "Our fleet",
+    "title": "40+ trucks ready for every haul",
+    "paragraph1": "The SAŠA KOMERC fleet today counts over 40 trucks — tractor units with semi-trailers, compliant with the Euro 5 and Euro 6 environmental standards. Each vehicle can carry cargo weighing up to 25 tonnes, covering the needs of nearly every type of general cargo on long-distance European routes.",
+    "paragraph2": "SAŠA KOMERC drivers operate both our own trailers and trailers from the network of our long-standing partner LKW Walter, which significantly increases flexibility when picking up new cargo, regardless of where in Europe the vehicle happens to be. This combination of owned capacity and access to a partner network allows us to respond quickly, even to requests with tight deadlines.",
+    "stats": {
+      "trucks": "40+",
+      "trucksLabel": "trucks in our fleet",
+      "capacity": "25t",
+      "capacityLabel": "maximum capacity",
+      "standard": "Euro 5/6",
+      "standardLabel": "environmental standard",
+      "partner": "LKW Walter",
+      "partnerLabel": "partner network"
+    }
+  },
+  "partner": {
+    "eyebrow": "Strategic partnership",
+    "title": "Part of the LKW Walter network",
+    "paragraph1": "LKW Walter (Internationale Transportorganisation AG) is one of Europe's leading international transport organisations, headquartered in Austria, with a carrier network spanning thousands of vehicles across the continent. SAŠA KOMERC has proudly been a partner in this network for a long time, giving us access to additional loads, trailers and logistics support across Western and Northern Europe.",
+    "paragraph2": "This partnership is not just a business agreement — it's confirmation of the quality and seriousness with which SAŠA KOMERC has operated for three decades. Being part of the LKW Walter network requires consistently meeting strict standards for safety, quality and reliability, and our team holds certificates that confirm exactly that."
+  },
+  "whyUs": {
+    "eyebrow": "Why SAŠA KOMERC",
+    "title": "Reasons clients have trusted us for three decades",
+    "items": [
+      {
+        "title": "24/7 availability",
+        "description": "You can always reach us — phone, email, WhatsApp or Viber, at any time of day."
+      },
+      {
+        "title": "34+ years of experience",
+        "description": "From 1992 to today, we've built knowledge and reputation on Europe's roads, one haul at a time."
+      },
+      {
+        "title": "Certified reliability",
+        "description": "Our team holds safety and quality certificates from the LKW Walter partner network."
+      },
+      {
+        "title": "Personal leadership",
+        "description": "Founder Saša Spasovski is personally involved in every major shipment and client relationship."
+      },
+      {
+        "title": "Renowned partners",
+        "description": "We work with LKW Walter, one of Europe's leading transport organisations."
+      },
+      {
+        "title": "Flexible routes",
+        "description": "The NL-SE-NL and DE-SE-DE round trip routes offer predictability, with room to adapt."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "The team",
+    "title": "The people behind every shipment",
+    "subtitle": "A small, dedicated team that personally looks after every client and every load.",
+    "members": {
+      "sasa": {
+        "name": "Saša Spasovski",
+        "role": "Founder",
+        "bio": "With the company since day one in 1992, Saša has built SAŠA KOMERC through personal involvement in every major shipment, partner relationship and strategic decision."
+      },
+      "marija": {
+        "name": "Marija Jordanova",
+        "role": "Operations Support",
+        "bio": "Marija is a key link in the day-to-day coordination of shipments — communicating with clients, partners and drivers, so that every load arrives on time."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Behind the scenes",
+    "title": "Our office in Skopje",
+    "subtitle": "A look inside the space where transports across Europe are coordinated every day."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Request a quote, we're available 24/7",
+    "subtitle": "Call, write, or fill out the form below — you'll get a fast response at any time of day.",
+    "hoursLabel": "Working hours",
+    "hoursValue": "24/7 — every day, all year round",
+    "addressLabel": "Address",
+    "addressValue": "534 St. No. 23-1/26, Marino, 1041 Ilinden, Skopje, Macedonia",
+    "addressNote": "Kam building, 2nd floor, unit 26",
+    "getDirections": "Get Directions",
+    "people": {
+      "sasa": {
+        "name": "Saša Spasovski",
+        "role": "Founder"
+      },
+      "marija": {
+        "name": "Marija Jordanova",
+        "role": "Operations Support"
+      }
+    },
+    "form": {
+      "title": "Request a Quote",
+      "subtitle": "Fill in the details of your shipment and we'll get back to you as soon as possible.",
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "company": "Company",
+      "companyPlaceholder": "Company name (optional)",
+      "phone": "Phone",
+      "phonePlaceholder": "+389 70 000 000",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "originCountry": "Loading country/city",
+      "originPlaceholder": "e.g. Skopje, Macedonia",
+      "destCountry": "Delivery country/city",
+      "destPlaceholder": "e.g. Rotterdam, Netherlands",
+      "cargoType": "Cargo type",
+      "cargoPlaceholder": "e.g. general cargo, pallets...",
+      "weight": "Weight / dimensions",
+      "weightPlaceholder": "e.g. 12t, 2 pallets",
+      "date": "Preferred date",
+      "message": "Additional message",
+      "messagePlaceholder": "Additional details about the shipment...",
+      "submit": "Send Request",
+      "submitting": "Sending...",
+      "successTitle": "Successfully sent!",
+      "successMessage": "Thank you for your request. Since we're available 24/7, we'll be in touch soon.",
+      "sendAnother": "Send another request",
+      "errorRequired": "This field is required",
+      "errorEmail": "Please enter a valid email address",
+      "errorMinLength": "Please enter at least {min} characters",
+      "errorGeneric": "Something went wrong. Please try again or contact us directly."
+    }
+  },
+  "footer": {
+    "tagline": "International road transport and freight forwarding since 1992.",
+    "quickLinksTitle": "Quick Links",
+    "servicesTitle": "Services",
+    "contactTitle": "Contact",
+    "hours": "Available 24/7",
+    "rights": "All rights reserved.",
+    "einNote": "Company ID / VAT: /"
+  },
+  "common": {
+    "callUs": "Call Us",
+    "whatsapp": "WhatsApp",
+    "viber": "Viber",
+    "messenger": "Messenger",
+    "readMore": "Learn More",
+    "close": "Close",
+    "next": "Next",
+    "prev": "Previous",
+    "menu": "Menu",
+    "language": "Language",
+    "backToHome": "Back to Home"
+  }
+}

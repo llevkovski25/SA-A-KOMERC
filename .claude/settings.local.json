@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(python3 'C:\\\\Users\\\\Johan/.claude/skills/ui-ux-pro-max/scripts/search.py' 'international freight forwarding logistics trucking corporate heavy serious' --design-system -p 'SASA KOMERC' -f markdown)",
+      "Bash(python3 -c ' *)",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --src-dir --import-alias \"@/*\" --eslint --use-npm --yes)",
+      "Bash(rm -rf \"/tmp/sasakomerc-scaffold\")",
+      "Bash(npx --yes create-next-app@latest /tmp/sasakomerc-scaffold --typescript --tailwind --app --src-dir --import-alias \"@/*\" --eslint --use-npm --yes)",
+      "Bash(cd \"/tmp/sasakomerc-scaffold\" && ls -la && echo \"---git---\" && ls -la .git 2>/dev/null | head -5)"
+    ]
+  }
+}

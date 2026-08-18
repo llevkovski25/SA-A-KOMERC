@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "siteName": "SAŠA KOMERC",
+    "titleSuffix": "SAŠA KOMERC | Međunarodni transport i špedicija",
+    "pages": {
+      "home": {
+        "title": "SAŠA KOMERC — Međunarodni drumski transport i špedicija od 1992.",
+        "description": "Međunarodni drumski transport, špedicija i logistika iz Skoplja. 34+ godina iskustva, 40+ kamiona, partnerstvo sa LKW Walter. Dostupni 24/7."
+      },
+      "about": {
+        "title": "O nama | SAŠA KOMERC",
+        "description": "Priča kompanije SAŠA KOMERC — porodične špediterske firme osnovane 1992. godine, sa više od tri decenije poverenja na evropskim putevima."
+      },
+      "services": {
+        "title": "Usluge | SAŠA KOMERC",
+        "description": "Međunarodni drumski transport, špedicija i logistika, kao i trucking usluge za klijente u Holandiji, Nemačkoj, Švedskoj i Belgiji."
+      },
+      "fleet": {
+        "title": "Vozni park | SAŠA KOMERC",
+        "description": "Vozni park od 40+ kamiona, tegljača sa poluprikolicama, standard Euro 5 i Euro 6, maksimalni kapacitet 25 tona."
+      },
+      "gallery": {
+        "title": "Galerija | SAŠA KOMERC",
+        "description": "Pogled u kancelariju i svakodnevnicu tima kompanije SAŠA KOMERC u Skoplju."
+      },
+      "contact": {
+        "title": "Kontakt | SAŠA KOMERC",
+        "description": "Zatražite ponudu za međunarodni transport. Dostupni 24/7 — telefon, imejl, WhatsApp i Viber."
+      },
+      "servicesDetail": {
+        "transport": {
+          "title": "Međunarodni drumski transport | SAŠA KOMERC",
+          "description": "Round trip ture NL-SE-NL i DE-SE-DE sa voznim parkom od 40+ šlepera, Euro 5/6, u partnerstvu sa LKW Walter."
+        },
+        "forwarding": {
+          "title": "Špedicija i logistika | SAŠA KOMERC",
+          "description": "Potpuna koordinacija, dokumentacija i organizacija međunarodnog transporta širom Evrope."
+        },
+        "trucking": {
+          "title": "Trucking — intermodalni transport | SAŠA KOMERC",
+          "description": "Otkačinjanje i zakačinjanje prikolica na železničkim terminalima i lukama, u saradnji sa LKW Walter."
+        }
+      }
+    }
+  },
+  "nav": {
+    "home": "Početna",
+    "about": "O nama",
+    "services": "Usluge",
+    "fleet": "Vozni park",
+    "partners": "Partneri",
+    "gallery": "Galerija",
+    "contact": "Kontakt",
+    "getQuote": "Zatraži ponudu",
+    "callUs": "Pozovite nas"
+  },
+  "hero": {
+    "eyebrow": "Međunarodni transport i špedicija od 1992. godine",
+    "title": "Vaš teret, naša odgovornost.",
+    "subtitle": "SAŠA KOMERC je kompanija sa dugogodišnjim iskustvom u organizovanju i koordinaciji međunarodnog transporta širom Evrope. Povezujemo vaš biznis sa pouzdanim prevozom i profesionalnom uslugom — od prvog poziva do uspešne isporuke.",
+    "ctaPrimary": "Zatraži ponudu",
+    "ctaSecondary": "Kontaktirajte nas",
+    "scrollHint": "Skrolujte",
+    "trust": {
+      "years": "34+",
+      "yearsLabel": "godina iskustva",
+      "trucks": "40+",
+      "trucksLabel": "kamiona u voznom parku",
+      "countries": "4",
+      "countriesLabel": "zemlje u Evropi",
+      "support": "24/7",
+      "supportLabel": "dostupnost"
+    }
+  },
+  "about": {
+    "eyebrow": "Naša priča",
+    "title": "34 godine na evropskim putevima",
+    "paragraph1": "SAŠA KOMERC DOOEL je osnovan 1992. godine od strane Saše Spasovskog, u vreme kada je međunarodni transport iz Makedonije zahtevao ne samo vozni park, već i upornost, ugled i lične veze izgrađene godinama. Ono što je počelo kao skroman poduhvat, preraslo je u prepoznatljivu špedlitersku firmu koja danas upravlja voznim parkom od preko 40 kamiona i svakodnevno povezuje klijente iz Skoplja sa destinacijama širom Zapadne i Severne Evrope.",
+    "paragraph2": "Kroz sve ove decenije, filozofija je ostala ista: svaki teret se tretira lično, svaki rok se poštuje kao sopstveni, a svaki klijent dobija direktnu komunikaciju sa ljudima koji zaista vode posao. Upravo ta bliskost — kombinovana sa ozbiljnošću na evropskom nivou — omogućila nam je da izgradimo dugoročno partnerstvo sa LKW Walter, jednom od vodećih transportnih organizacija u Evropi, i da zaslužimo poverenje partnera kojima je potrebna postojanost, a ne samo prevoz.",
+    "paragraph3": "Danas, tim kompanije SAŠA KOMERC, predvođen osnivačem Sašom Spasovskim i Marijom Jordanovom, nastavlja da radi sa istom posvećenošću sa kojom je firma počela pre više od tri decenije — dostupni 24 sata dnevno, 7 dana u nedelji, za svakog klijenta kome je potreban partner na koga zaista može da se osloni.",
+    "missionTitle": "Misija",
+    "missionText": "Da obezbedimo brz, pouzdan i transparentan međunarodni transport i špediciju, gradeći trajna partnerstva kroz ličnu odgovornost i profesionalizam u svakom koraku prevoza.",
+    "visionTitle": "Vizija",
+    "visionText": "Da ostanemo prepoznatljiv, pouzdan porodični prevoznik koji se fleksibilnošću i iskustvom meri sa najvećim evropskim logističkim kompanijama, a da pritom ne izgubi ličnu notu u radu."
+  },
+  "services": {
+    "eyebrow": "Čime se bavimo",
+    "title": "Usluge kreirane za međunarodni transport",
+    "subtitle": "Tri međusobno povezane usluge koje zajedno nose vaš teret od tačke A do tačke B — bez prekida, bez nejasnoća i bez nepotrebnog čekanja.",
+    "learnMore": "Saznaj više",
+    "showLess": "Prikaži manje",
+    "viewDetails": "Svi detalji",
+    "items": {
+      "transport": {
+        "title": "Međunarodni drumski transport",
+        "icon": "truck",
+        "summary": "Direktan prevoz robe sopstvenim voznim parkom od preko 40 kamiona po round trip rutama NL-SE-NL i DE-SE-DE, uz punu odgovornost za tačnost i bezbednost tereta.",
+        "detail": "Naš prevoz se oslanja na dobro isplanirane kružne ture — Holandija–Švedska–Holandija i Nemačka–Švedska–Nemačka — što omogućava maksimalnu iskorišćenost kapaciteta i kraće rokove isporuke u oba pravca. Vozni park čine tegljači sa poluprikolicama (šleperi), standard Euro 5 i Euro 6, sa maksimalnim kapacitetom do 25 tona po vozilu. Naši vozači voze i sopstvene prikolice, i prikolice iz mreže našeg partnera LKW Walter, što dodatno povećava fleksibilnost pri preuzimanju i isporuci tereta širom Zapadne Evrope. Svaki prevoz se prati od polaska do isporuke, uz direktnu komunikaciju sa klijentom u svakom trenutku.",
+        "bullets": [
+          "Round trip rute NL–SE–NL i DE–SE–DE",
+          "40+ kamiona, Euro 5 i Euro 6 standard",
+          "Maksimalni kapacitet do 25 tona",
+          "Sopstvene prikolice i prikolice iz mreže LKW Walter"
+        ]
+      },
+      "forwarding": {
+        "title": "Špedicija i logistika",
+        "icon": "route",
+        "summary": "Potpuna organizacija prevoza — od dokumentacije i carinske koordinacije, do planiranja ruta i stalne komunikacije sa partnerima širom Evrope.",
+        "detail": "Špedicija je srce našeg posla. Pre nego što teret uopšte krene na put, naš tim koordinira sve korake potrebne za nesmetan i zakonski usklađen međunarodni transport — prevoznu dokumentaciju, CMR tovarne listove, usklađivanje termina za utovar i istovar, kao i stalnu komunikaciju sa pošiljaocima, primaocima i partnerskim prevoznicima u Holandiji, Nemačkoj, Švedskoj i Belgiji. Sa decenijama iskustva u radu sa evropskim partnerima, znamo da predvidimo potencijalna kašnjenja i reagujemo na vreme, umesto da čekamo da se problem sam pojavi. Rezultat je transport koji teče glatko, uz jasnu komunikaciju u svakom koraku, bilo da je reč o jednokratnoj pošiljci ili redovnoj mesečnoj ruti.",
+        "bullets": [
+          "Kompletna prevozna dokumentacija i CMR",
+          "Koordinacija sa partnerima širom Evrope",
+          "Planiranje ruta i termina za utovar/istovar",
+          "Direktna komunikacija 24/7 sa timom"
+        ]
+      },
+      "trucking": {
+        "title": "Trucking — intermodalni transport",
+        "icon": "network",
+        "summary": "Otkačinjanje i zakačinjanje prikolica na železničkim terminalima i lukama, radi fleksibilnog kombinovanja drumskog, železničkog i pomorskog transporta.",
+        "detail": "Pored klasičnog drumskog prevoza, nudimo i trucking uslugu — otkačinjanje i zakačinjanje prikolica na železničkim terminalima i lučkim kapacitetima, u saradnji sa mrežom LKW Walter. Ova usluga omogućava da teret deo puta putuje šinama ili morem, a deo drumom, u zavisnosti od toga šta je najbrže, najekonomičnije i najbezbednije za konkretnu pošiljku. Za klijente to znači veću fleksibilnost u planiranju, manji ekološki otisak na dužim relacijama, i pristup intermodalnoj mreži koja se prostire širom Evrope. Naš tim koordinira celokupnu logistiku oko terminala — tačno vreme dolaska, pravilno zakačinjanje/otkačinjanje i nesmetan nastavak prevoza do krajnje destinacije.",
+        "bullets": [
+          "Rad na terminalima i lukama u Evropi",
+          "Kombinacija drumskog, železničkog i pomorskog transporta",
+          "Partnerstvo sa mrežom LKW Walter",
+          "Fleksibilnije i održivije planiranje ruta"
+        ]
+      }
+    }
+  },
+  "destinations": {
+    "eyebrow": "Gde prevozimo",
+    "title": "Pokrivenost ključnih tržišta Zapadne i Severne Evrope",
+    "subtitle": "Od Skoplja do najrazvijenijih logističkih tržišta u Evropi — sa redovnim round trip rutama i mrežom izgrađenom kroz godine.",
+    "origin": "Skoplje, Makedonija",
+    "originLabel": "Polazište",
+    "countries": {
+      "germany": {
+        "name": "Nemačka",
+        "description": "Ključna destinacija na ruti DE-SE-DE, sa redovnim prevozima do industrijskih i logističkih centara širom zemlje."
+      },
+      "netherlands": {
+        "name": "Holandija",
+        "description": "Jedno od najvažnijih evropskih logističkih čvorišta i početna/krajnja tačka naše round trip rute NL-SE-NL."
+      },
+      "sweden": {
+        "name": "Švedska",
+        "description": "Severna krajnja tačka obe naše round trip rute — NL-SE-NL i DE-SE-DE."
+      },
+      "belgium": {
+        "name": "Belgija",
+        "description": "Deo naše zapadnoevropske mreže destinacija, sa pristupom nekim od najvećih luka u Evropi."
+      }
+    }
+  },
+  "fleet": {
+    "eyebrow": "Naš vozni park",
+    "title": "40+ kamiona spremnih za svaki prevoz",
+    "paragraph1": "Vozni park kompanije SAŠA KOMERC danas broji preko 40 kamiona — tegljača sa poluprikolicama, usklađenih sa Euro 5 i Euro 6 ekološkim standardima. Svako vozilo može da prevozi teret maksimalne težine do 25 tona, što pokriva potrebe skoro svake vrste generalnog tereta na dalekim evropskim relacijama.",
+    "paragraph2": "Vozači kompanije SAŠA KOMERC voze i sopstvene prikolice, i prikolice iz mreže našeg dugogodišnjeg partnera LKW Walter, što značajno povećava fleksibilnost pri preuzimanju novog tereta, bez obzira gde se vozilo trenutno nalazi u Evropi. Ova kombinacija sopstvenih kapaciteta i pristupa partnerskoj mreži omogućava nam da brzo odgovorimo, čak i na zahteve sa kratkim rokovima.",
+    "stats": {
+      "trucks": "40+",
+      "trucksLabel": "kamiona u voznom parku",
+      "capacity": "25t",
+      "capacityLabel": "maksimalni kapacitet",
+      "standard": "Euro 5/6",
+      "standardLabel": "ekološki standard",
+      "partner": "LKW Walter",
+      "partnerLabel": "partnerska mreža"
+    }
+  },
+  "partner": {
+    "eyebrow": "Strateško partnerstvo",
+    "title": "Deo mreže LKW Walter",
+    "paragraph1": "LKW Walter (Internationale Transportorganisation AG) je jedna od vodećih međunarodnih transportnih organizacija u Evropi, sa sedištem u Austriji i mrežom prevoznika koja obuhvata hiljade vozila širom kontinenta. SAŠA KOMERC je ponosni partner ove mreže već duži niz godina, što nam omogućava pristup dodatnim teretima, prikolicama i logističkoj podršci širom Zapadne i Severne Evrope.",
+    "paragraph2": "Ovo partnerstvo nije samo poslovni dogovor — to je potvrda kvaliteta i ozbiljnosti sa kojom SAŠA KOMERC posluje već tri decenije. Da bi se bilo deo mreže LKW Walter, potrebno je stalno ispunjavanje strogih standarda za bezbednost, kvalitet i tačnost, a naš tim poseduje sertifikate koji upravo to potvrđuju."
+  },
+  "whyUs": {
+    "eyebrow": "Zašto SAŠA KOMERC",
+    "title": "Razlozi zbog kojih nam klijenti veruju već tri decenije",
+    "items": [
+      {
+        "title": "24/7 dostupnost",
+        "description": "Uvek možete da nas kontaktirate — telefon, imejl, WhatsApp ili Viber, u bilo koje doba dana."
+      },
+      {
+        "title": "34+ godina iskustva",
+        "description": "Od 1992. godine do danas, gradimo znanje i reputaciju na evropskim putevima, prevoz po prevoz."
+      },
+      {
+        "title": "Sertifikovana pouzdanost",
+        "description": "Naš tim poseduje sertifikate za bezbednost i kvalitet od partnerske mreže LKW Walter."
+      },
+      {
+        "title": "Lično vođstvo",
+        "description": "Osnivač Saša Spasovski je lično uključen u svaki veći prevoz i odnos sa klijentima."
+      },
+      {
+        "title": "Renomirani partneri",
+        "description": "Sarađujemo sa LKW Walter, jednom od vodećih transportnih organizacija u Evropi."
+      },
+      {
+        "title": "Fleksibilne rute",
+        "description": "Round trip rute NL-SE-NL i DE-SE-DE nude predvidljivost, ali i prostor za prilagođavanje."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Tim",
+    "title": "Ljudi iza svakog prevoza",
+    "subtitle": "Mali, posvećeni tim koji se lično brine o svakom klijentu i svakom teretu.",
+    "members": {
+      "sasa": {
+        "name": "Saša Spasovski",
+        "role": "Osnivač",
+        "bio": "Sa firmom od samog početka 1992. godine, Saša gradi SAŠA KOMERC uz ličnu uključenost u svaki veći prevoz, odnos sa partnerima i stratešku odluku."
+      },
+      "marija": {
+        "name": "Marija Jordanova",
+        "role": "Operativna podrška",
+        "bio": "Marija je ključna karika u svakodnevnoj koordinaciji prevoza — komunikaciji sa klijentima, partnerima i vozačima, kako bi svaki teret stigao na vreme."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Iza kulisa",
+    "title": "Naša kancelarija u Skoplju",
+    "subtitle": "Pogled u prostor iz kog se svakodnevno koordinišu prevozi širom Evrope."
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Zatražite ponudu, dostupni smo 24/7",
+    "subtitle": "Pozovite, pišite ili popunite formular ispod — dobićete brz odgovor u bilo koje doba dana.",
+    "hoursLabel": "Radno vreme",
+    "hoursValue": "24/7 — svaki dan, cele godine",
+    "addressLabel": "Adresa",
+    "addressValue": "ul. 534 br. 23-1/26, Marino, 1041 Ilinden, Skoplje, Makedonija",
+    "addressNote": "Kam zgrada, sprat 2, stan br. 26",
+    "getDirections": "Prikaži pravac",
+    "people": {
+      "sasa": {
+        "name": "Saša Spasovski",
+        "role": "Osnivač"
+      },
+      "marija": {
+        "name": "Marija Jordanova",
+        "role": "Operativna podrška"
+      }
+    },
+    "form": {
+      "title": "Zatraži ponudu",
+      "subtitle": "Popunite detalje o vašem prevozu i mi ćemo vas kontaktirati u najkraćem roku.",
+      "name": "Ime i prezime",
+      "namePlaceholder": "Vaše ime",
+      "company": "Kompanija",
+      "companyPlaceholder": "Naziv kompanije (opciono)",
+      "phone": "Telefon",
+      "phonePlaceholder": "+389 70 000 000",
+      "email": "Imejl",
+      "emailPlaceholder": "vas@email.com",
+      "originCountry": "Zemlja/grad utovara",
+      "originPlaceholder": "npr. Skoplje, Makedonija",
+      "destCountry": "Zemlja/grad isporuke",
+      "destPlaceholder": "npr. Roterdam, Holandija",
+      "cargoType": "Vrsta robe",
+      "cargoPlaceholder": "npr. generalni teret, palete...",
+      "weight": "Težina / dimenzije",
+      "weightPlaceholder": "npr. 12t, 2 palete",
+      "date": "Željeni datum",
+      "message": "Dodatna poruka",
+      "messagePlaceholder": "Dodatni detalji o prevozu...",
+      "submit": "Pošalji zahtev",
+      "submitting": "Šalje se...",
+      "successTitle": "Uspešno poslato!",
+      "successMessage": "Hvala vam na zahtevu. Pošto smo dostupni 24/7, uskoro ćemo vas kontaktirati.",
+      "sendAnother": "Pošalji još jedan zahtev",
+      "errorRequired": "Ovo polje je obavezno",
+      "errorEmail": "Unesite validnu imejl adresu",
+      "errorMinLength": "Unesite bar {min} karaktera",
+      "errorGeneric": "Došlo je do greške. Pokušajte ponovo ili nas kontaktirajte direktno."
+    }
+  },
+  "footer": {
+    "tagline": "Međunarodni drumski transport i špedicija od 1992. godine.",
+    "quickLinksTitle": "Brzi linkovi",
+    "servicesTitle": "Usluge",
+    "contactTitle": "Kontakt",
+    "hours": "Dostupni 24/7",
+    "rights": "Sva prava zadržana.",
+    "einNote": "PIB / Matični broj: /"
+  },
+  "common": {
+    "callUs": "Pozovite nas",
+    "whatsapp": "WhatsApp",
+    "viber": "Viber",
+    "messenger": "Messenger",
+    "readMore": "Saznaj više",
+    "close": "Zatvori",
+    "next": "Sledeće",
+    "prev": "Prethodno",
+    "menu": "Meni",
+    "language": "Jezik",
+    "backToHome": "Nazad na početnu"
+  }
+}

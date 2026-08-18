@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "siteName": "SAŠA KOMERC",
+    "titleSuffix": "SAŠA KOMERC | Internationaler Transport & Spedition",
+    "pages": {
+      "home": {
+        "title": "SAŠA KOMERC — Internationaler Straßentransport & Spedition seit 1992",
+        "description": "Internationaler Straßentransport, Spedition und Logistik aus Skopje. 34+ Jahre Erfahrung, 40+ LKW, Partnerschaft mit LKW Walter. Rund um die Uhr erreichbar."
+      },
+      "about": {
+        "title": "Über uns | SAŠA KOMERC",
+        "description": "Die Geschichte von SAŠA KOMERC — ein Familienunternehmen im Speditionswesen, gegründet 1992, mit über drei Jahrzehnten Vertrauen auf Europas Straßen."
+      },
+      "services": {
+        "title": "Leistungen | SAŠA KOMERC",
+        "description": "Internationaler Straßentransport, Spedition und Logistik sowie Trucking-Leistungen für Kunden in den Niederlanden, Deutschland, Schweden und Belgien."
+      },
+      "fleet": {
+        "title": "Fuhrpark | SAŠA KOMERC",
+        "description": "Ein Fuhrpark von über 40 LKW, Sattelzugmaschinen, Euro-5- und Euro-6-Standard, maximale Nutzlast von 25 Tonnen."
+      },
+      "gallery": {
+        "title": "Galerie | SAŠA KOMERC",
+        "description": "Ein Einblick in das Büro und den Arbeitsalltag des SAŠA KOMERC-Teams in Skopje."
+      },
+      "contact": {
+        "title": "Kontakt | SAŠA KOMERC",
+        "description": "Fordern Sie ein Angebot für internationalen Transport an. Rund um die Uhr erreichbar — per Telefon, E-Mail, WhatsApp und Viber."
+      },
+      "servicesDetail": {
+        "transport": {
+          "title": "Internationaler Straßentransport | SAŠA KOMERC",
+          "description": "Rundtouren NL-SE-NL und DE-SE-DE mit einem Fuhrpark von über 40 Sattelzügen, Euro 5/6, in Partnerschaft mit LKW Walter."
+        },
+        "forwarding": {
+          "title": "Spedition & Logistik | SAŠA KOMERC",
+          "description": "Vollständige Koordination, Dokumentation und Organisation des internationalen Transports in ganz Europa."
+        },
+        "trucking": {
+          "title": "Trucking — Intermodaler Transport | SAŠA KOMERC",
+          "description": "An- und Abkoppeln von Aufliegern an Bahnterminals und Häfen, in Zusammenarbeit mit LKW Walter."
+        }
+      }
+    }
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Leistungen",
+    "fleet": "Fuhrpark",
+    "partners": "Partner",
+    "gallery": "Galerie",
+    "contact": "Kontakt",
+    "getQuote": "Angebot anfordern",
+    "callUs": "Rufen Sie uns an"
+  },
+  "hero": {
+    "eyebrow": "Internationaler Transport & Spedition seit 1992",
+    "title": "Ihre Ladung, unsere Verantwortung.",
+    "subtitle": "SAŠA KOMERC ist ein Unternehmen mit langjähriger Erfahrung in der Organisation und Koordination des internationalen Transports in ganz Europa. Wir verbinden Ihr Unternehmen mit zuverlässigem Transport und professionellem Service — vom ersten Anruf bis zur erfolgreichen Zustellung.",
+    "ctaPrimary": "Angebot anfordern",
+    "ctaSecondary": "Kontaktieren Sie uns",
+    "scrollHint": "Scrollen",
+    "trust": {
+      "years": "34+",
+      "yearsLabel": "Jahre Erfahrung",
+      "trucks": "40+",
+      "trucksLabel": "LKW im Fuhrpark",
+      "countries": "4",
+      "countriesLabel": "Länder in Europa",
+      "support": "24/7",
+      "supportLabel": "Erreichbarkeit"
+    }
+  },
+  "about": {
+    "eyebrow": "Unsere Geschichte",
+    "title": "34 Jahre auf Europas Straßen",
+    "paragraph1": "SAŠA KOMERC DOOEL wurde 1992 von Saša Spasovski gegründet, zu einer Zeit, als internationaler Transport aus Mazedonien mehr erforderte als nur einen Fuhrpark — es brauchte Ausdauer, Ansehen und persönliche Beziehungen, die über Jahre aufgebaut wurden. Was als bescheidenes Unternehmen begann, ist zu einer anerkannten Speditionsfirma herangewachsen, die heute einen Fuhrpark von über 40 LKW betreibt und täglich Kunden aus Skopje mit Zielen in ganz West- und Nordeuropa verbindet.",
+    "paragraph2": "Über all diese Jahrzehnte ist die Philosophie dieselbe geblieben: Jede Sendung wird persönlich behandelt, jede Frist wird eingehalten wie die eigene, und jeder Kunde spricht direkt mit den Menschen, die das Geschäft tatsächlich führen. Genau diese Nähe — verbunden mit einem Ernst auf europäischem Niveau — hat es uns ermöglicht, eine langfristige Partnerschaft mit LKW Walter aufzubauen, einer der führenden Transportorganisationen Europas, und das Vertrauen von Partnern zu gewinnen, die Beständigkeit brauchen, nicht nur Transport.",
+    "paragraph3": "Heute arbeitet das Team von SAŠA KOMERC, geführt vom Gründer Saša Spasovski und Marija Jordanova, mit derselben Hingabe weiter, mit der das Unternehmen vor mehr als drei Jahrzehnten gegründet wurde — rund um die Uhr, sieben Tage die Woche erreichbar, für jeden Kunden, der einen Partner braucht, auf den er sich wirklich verlassen kann.",
+    "missionTitle": "Mission",
+    "missionText": "Schnellen, zuverlässigen und transparenten internationalen Transport und Spedition zu gewährleisten und dauerhafte Partnerschaften durch persönliche Verantwortung und Professionalität bei jedem Schritt des Transports aufzubauen.",
+    "visionTitle": "Vision",
+    "visionText": "Ein anerkannter, vertrauenswürdiger Familienspediteur zu bleiben, der sich mit Flexibilität und Erfahrung mit den größten europäischen Logistikunternehmen messen kann, ohne dabei jemals die persönliche Note in der Arbeit zu verlieren."
+  },
+  "services": {
+    "eyebrow": "Was wir tun",
+    "title": "Leistungen für den internationalen Transport",
+    "subtitle": "Drei miteinander verbundene Leistungen, die Ihre Ladung gemeinsam von Punkt A nach Punkt B bringen — ohne Unterbrechungen, ohne Unklarheiten und ohne unnötige Wartezeiten.",
+    "learnMore": "Mehr erfahren",
+    "showLess": "Weniger anzeigen",
+    "viewDetails": "Alle Details",
+    "items": {
+      "transport": {
+        "title": "Internationaler Straßentransport",
+        "icon": "truck",
+        "summary": "Direkter Warentransport mit unserem eigenen Fuhrpark von über 40 LKW auf den Rundtouren NL-SE-NL und DE-SE-DE, mit voller Verantwortung für Pünktlichkeit und Sicherheit der Ladung.",
+        "detail": "Unser Transport basiert auf gut geplanten Rundtouren — Niederlande–Schweden–Niederlande und Deutschland–Schweden–Deutschland —, die eine maximale Kapazitätsauslastung und kürzere Lieferzeiten in beide Richtungen ermöglichen. Der Fuhrpark besteht aus Sattelzugmaschinen mit Aufliegern, Euro-5- und Euro-6-Standard, mit einer maximalen Nutzlast von bis zu 25 Tonnen pro Fahrzeug. Unsere Fahrer fahren sowohl mit eigenen Aufliegern als auch mit Aufliegern aus dem Netzwerk unseres Partners LKW Walter, was die Flexibilität bei der Abholung und Zustellung von Ladungen in ganz Westeuropa zusätzlich erhöht. Jeder Transport wird von der Abfahrt bis zur Zustellung verfolgt, mit direkter Kommunikation mit dem Kunden zu jedem Zeitpunkt.",
+        "bullets": [
+          "Rundtouren NL–SE–NL und DE–SE–DE",
+          "40+ LKW, Euro-5- und Euro-6-Standard",
+          "Maximale Nutzlast bis zu 25 Tonnen",
+          "Eigene Auflieger sowie Auflieger aus dem LKW-Walter-Netzwerk"
+        ]
+      },
+      "forwarding": {
+        "title": "Spedition & Logistik",
+        "icon": "route",
+        "summary": "Vollständige Organisation des Transports — von Dokumentation und Zollkoordination bis zur Routenplanung und ständiger Kommunikation mit Partnern in ganz Europa.",
+        "detail": "Die Spedition ist das Herzstück unserer Arbeit. Bevor eine Sendung überhaupt auf die Straße geht, koordiniert unser Team alle Schritte, die für einen reibungslosen und rechtskonformen internationalen Transport erforderlich sind — Transportdokumentation, CMR-Frachtbriefe, die Abstimmung von Be- und Entladezeiten sowie die ständige Kommunikation mit Absendern, Empfängern und Partnerspediteuren in den Niederlanden, Deutschland, Schweden und Belgien. Mit jahrzehntelanger Erfahrung in der Zusammenarbeit mit europäischen Partnern wissen wir, wie man mögliche Verzögerungen vorhersieht und frühzeitig reagiert, anstatt zu warten, bis ein Problem von selbst auftritt. Das Ergebnis ist ein Transport, der reibungslos verläuft, mit klarer Kommunikation bei jedem Schritt — egal ob es sich um eine einmalige Sendung oder eine regelmäßige monatliche Route handelt.",
+        "bullets": [
+          "Vollständige Transportdokumentation und CMR",
+          "Koordination mit Partnern in ganz Europa",
+          "Routenplanung sowie Be- und Entladeplanung",
+          "Direkte Kommunikation rund um die Uhr mit unserem Team"
+        ]
+      },
+      "trucking": {
+        "title": "Trucking — Intermodaler Transport",
+        "icon": "network",
+        "summary": "An- und Abkoppeln von Aufliegern an Bahnterminals und Häfen, für eine flexible Kombination aus Straßen-, Schienen- und Seetransport.",
+        "detail": "Neben dem klassischen Straßentransport bieten wir auch eine Trucking-Leistung an — das An- und Abkoppeln von Aufliegern an Bahnterminals und Hafenanlagen, in Zusammenarbeit mit dem Netzwerk von LKW Walter. Diese Leistung ermöglicht es, dass die Ladung einen Teil der Strecke per Schiene oder See und einen Teil per Straße zurücklegt, je nachdem, was für die jeweilige Sendung am schnellsten, wirtschaftlichsten und sichersten ist. Für Kunden bedeutet dies mehr Flexibilität bei der Planung, einen geringeren ökologischen Fußabdruck auf längeren Strecken und Zugang zu einem intermodalen Netzwerk, das sich über ganz Europa erstreckt. Unser Team koordiniert die gesamte Logistik rund um die Terminals — genaue Ankunftszeiten, korrektes An- und Abkoppeln und eine nahtlose Fortsetzung des Transports bis zum endgültigen Ziel.",
+        "bullets": [
+          "Betrieb an Terminals und Häfen in Europa",
+          "Kombination aus Straßen-, Schienen- und Seetransport",
+          "Partnerschaft mit dem LKW-Walter-Netzwerk",
+          "Flexiblere und nachhaltigere Routenplanung"
+        ]
+      }
+    }
+  },
+  "destinations": {
+    "eyebrow": "Wohin wir liefern",
+    "title": "Abdeckung der wichtigsten Märkte West- und Nordeuropas",
+    "subtitle": "Von Skopje zu Europas am weitesten entwickelten Logistikmärkten — mit regelmäßigen Rundtouren und einem über die Jahre aufgebauten Netzwerk.",
+    "origin": "Skopje, Mazedonien",
+    "originLabel": "Abfahrtsort",
+    "countries": {
+      "germany": {
+        "name": "Deutschland",
+        "description": "Ein wichtiges Ziel auf der Route DE-SE-DE, mit regelmäßigem Transport zu Industrie- und Logistikzentren im ganzen Land."
+      },
+      "netherlands": {
+        "name": "Niederlande",
+        "description": "Eines der wichtigsten Logistikzentren Europas und Start-/Endpunkt unserer Rundtour NL-SE-NL."
+      },
+      "sweden": {
+        "name": "Schweden",
+        "description": "Der nördliche Endpunkt beider unserer Rundtouren — NL-SE-NL und DE-SE-DE."
+      },
+      "belgium": {
+        "name": "Belgien",
+        "description": "Teil unseres westeuropäischen Zielnetzwerks, mit Zugang zu einigen der größten Häfen Europas."
+      }
+    }
+  },
+  "fleet": {
+    "eyebrow": "Unser Fuhrpark",
+    "title": "40+ LKW für jeden Transport bereit",
+    "paragraph1": "Der Fuhrpark von SAŠA KOMERC umfasst heute über 40 LKW — Sattelzugmaschinen mit Aufliegern, die den Umweltstandards Euro 5 und Euro 6 entsprechen. Jedes Fahrzeug kann eine Ladung mit einem Höchstgewicht von bis zu 25 Tonnen transportieren, was den Bedarf nahezu jeder Art von Stückgut auf europäischen Fernstrecken abdeckt.",
+    "paragraph2": "Die Fahrer von SAŠA KOMERC fahren sowohl mit eigenen Aufliegern als auch mit Aufliegern aus dem Netzwerk unseres langjährigen Partners LKW Walter, was die Flexibilität bei der Übernahme neuer Ladungen erheblich erhöht, unabhängig davon, wo sich das Fahrzeug in Europa gerade befindet. Diese Kombination aus eigenen Kapazitäten und Zugang zu einem Partnernetzwerk ermöglicht es uns, schnell zu reagieren — auch bei Anfragen mit kurzen Fristen.",
+    "stats": {
+      "trucks": "40+",
+      "trucksLabel": "LKW im Fuhrpark",
+      "capacity": "25t",
+      "capacityLabel": "maximale Nutzlast",
+      "standard": "Euro 5/6",
+      "standardLabel": "Umweltstandard",
+      "partner": "LKW Walter",
+      "partnerLabel": "Partnernetzwerk"
+    }
+  },
+  "partner": {
+    "eyebrow": "Strategische Partnerschaft",
+    "title": "Teil des LKW-Walter-Netzwerks",
+    "paragraph1": "LKW Walter (Internationale Transportorganisation AG) ist eine der führenden internationalen Transportorganisationen Europas mit Sitz in Österreich und einem Frachtführernetzwerk, das Tausende von Fahrzeugen auf dem gesamten Kontinent umfasst. SAŠA KOMERC ist seit langer Zeit stolzer Partner dieses Netzwerks, was uns Zugang zu zusätzlichen Ladungen, Aufliegern und logistischer Unterstützung in ganz West- und Nordeuropa verschafft.",
+    "paragraph2": "Diese Partnerschaft ist nicht nur eine geschäftliche Vereinbarung — sie ist eine Bestätigung der Qualität und des Ernstes, mit dem SAŠA KOMERC seit drei Jahrzehnten arbeitet. Um Teil des LKW-Walter-Netzwerks zu sein, müssen strenge Standards für Sicherheit, Qualität und Zuverlässigkeit fortlaufend erfüllt werden, und unser Team verfügt über Zertifikate, die genau das bestätigen."
+  },
+  "whyUs": {
+    "eyebrow": "Warum SAŠA KOMERC",
+    "title": "Gründe, warum uns Kunden seit drei Jahrzehnten vertrauen",
+    "items": [
+      {
+        "title": "Rund um die Uhr erreichbar",
+        "description": "Sie können uns jederzeit erreichen — per Telefon, E-Mail, WhatsApp oder Viber, zu jeder Tageszeit."
+      },
+      {
+        "title": "34+ Jahre Erfahrung",
+        "description": "Von 1992 bis heute bauen wir Wissen und Ansehen auf Europas Straßen auf, Transport für Transport."
+      },
+      {
+        "title": "Zertifizierte Zuverlässigkeit",
+        "description": "Unser Team verfügt über Sicherheits- und Qualitätszertifikate des Partnernetzwerks LKW Walter."
+      },
+      {
+        "title": "Persönliche Führung",
+        "description": "Gründer Saša Spasovski ist persönlich in jeden größeren Transport und jede Kundenbeziehung eingebunden."
+      },
+      {
+        "title": "Renommierte Partner",
+        "description": "Wir arbeiten mit LKW Walter zusammen, einer der führenden Transportorganisationen Europas."
+      },
+      {
+        "title": "Flexible Routen",
+        "description": "Die Rundtouren NL-SE-NL und DE-SE-DE bieten Planbarkeit — mit Raum für Anpassungen."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Das Team",
+    "title": "Die Menschen hinter jedem Transport",
+    "subtitle": "Ein kleines, engagiertes Team, das sich persönlich um jeden Kunden und jede Ladung kümmert.",
+    "members": {
+      "sasa": {
+        "name": "Saša Spasovski",
+        "role": "Gründer",
+        "bio": "Seit dem ersten Tag im Jahr 1992 im Unternehmen, hat Saša SAŠA KOMERC durch persönliches Engagement bei jedem größeren Transport, jeder Partnerbeziehung und jeder strategischen Entscheidung aufgebaut."
+      },
+      "marija": {
+        "name": "Marija Jordanova",
+        "role": "Operative Unterstützung",
+        "bio": "Marija ist ein wichtiges Bindeglied bei der täglichen Koordination der Transporte — sie kommuniziert mit Kunden, Partnern und Fahrern, damit jede Ladung pünktlich ankommt."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Hinter den Kulissen",
+    "title": "Unser Büro in Skopje",
+    "subtitle": "Ein Einblick in den Raum, in dem täglich Transporte in ganz Europa koordiniert werden."
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Fordern Sie ein Angebot an — wir sind rund um die Uhr erreichbar",
+    "subtitle": "Rufen Sie an, schreiben Sie uns oder füllen Sie das untenstehende Formular aus — Sie erhalten zu jeder Tageszeit eine schnelle Antwort.",
+    "hoursLabel": "Öffnungszeiten",
+    "hoursValue": "24/7 — jeden Tag, das ganze Jahr",
+    "addressLabel": "Adresse",
+    "addressValue": "Ul. 534 Nr. 23-1/26, Marino, 1041 Ilinden, Skopje, Mazedonien",
+    "addressNote": "Gebäude Kam, 2. Stock, Wohnung Nr. 26",
+    "getDirections": "Route anzeigen",
+    "people": {
+      "sasa": {
+        "name": "Saša Spasovski",
+        "role": "Gründer"
+      },
+      "marija": {
+        "name": "Marija Jordanova",
+        "role": "Operative Unterstützung"
+      }
+    },
+    "form": {
+      "title": "Angebot anfordern",
+      "subtitle": "Geben Sie die Details Ihres Transports ein, und wir melden uns so schnell wie möglich bei Ihnen.",
+      "name": "Vor- und Nachname",
+      "namePlaceholder": "Ihr Name",
+      "company": "Unternehmen",
+      "companyPlaceholder": "Firmenname (optional)",
+      "phone": "Telefon",
+      "phonePlaceholder": "+389 70 000 000",
+      "email": "E-Mail",
+      "emailPlaceholder": "sie@email.com",
+      "originCountry": "Beladeland/-ort",
+      "originPlaceholder": "z. B. Skopje, Mazedonien",
+      "destCountry": "Zielland/-ort",
+      "destPlaceholder": "z. B. Rotterdam, Niederlande",
+      "cargoType": "Art der Ware",
+      "cargoPlaceholder": "z. B. Stückgut, Paletten...",
+      "weight": "Gewicht / Abmessungen",
+      "weightPlaceholder": "z. B. 12t, 2 Paletten",
+      "date": "Gewünschtes Datum",
+      "message": "Zusätzliche Nachricht",
+      "messagePlaceholder": "Weitere Details zum Transport...",
+      "submit": "Anfrage senden",
+      "submitting": "Wird gesendet...",
+      "successTitle": "Erfolgreich gesendet!",
+      "successMessage": "Vielen Dank für Ihre Anfrage. Da wir rund um die Uhr erreichbar sind, melden wir uns bald bei Ihnen.",
+      "sendAnother": "Weitere Anfrage senden",
+      "errorRequired": "Dieses Feld ist erforderlich",
+      "errorEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "errorMinLength": "Bitte geben Sie mindestens {min} Zeichen ein",
+      "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt."
+    }
+  },
+  "footer": {
+    "tagline": "Internationaler Straßentransport und Spedition seit 1992.",
+    "quickLinksTitle": "Schnellzugriff",
+    "servicesTitle": "Leistungen",
+    "contactTitle": "Kontakt",
+    "hours": "Rund um die Uhr erreichbar",
+    "rights": "Alle Rechte vorbehalten.",
+    "einNote": "Handelsregisternummer / USt-IdNr.: /"
+  },
+  "common": {
+    "callUs": "Rufen Sie uns an",
+    "whatsapp": "WhatsApp",
+    "viber": "Viber",
+    "messenger": "Messenger",
+    "readMore": "Mehr erfahren",
+    "close": "Schließen",
+    "next": "Weiter",
+    "prev": "Zurück",
+    "menu": "Menü",
+    "language": "Sprache",
+    "backToHome": "Zurück zur Startseite"
+  }
+}
