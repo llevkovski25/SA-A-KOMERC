@@ -1,21 +1,23 @@
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Phone, Mail } from "lucide-react";
 import { Reveal, RevealGroup, RevealItem } from "@/components/ui/Reveal";
 import { siteConfig, telLink } from "@/lib/site";
 
-function initials(name: string) {
-  return name
-    .split(" ")
-    .map((p) => p[0])
-    .join("");
-}
-
 export default async function Team() {
   const t = await getTranslations("team");
 
   const members = [
-    { key: "sasa" as const, person: siteConfig.people.sasa },
-    { key: "marija" as const, person: siteConfig.people.marija },
+    {
+      key: "sasa" as const,
+      person: siteConfig.people.sasa,
+      photo: "/images/team/sasa-spasovski.jpg",
+    },
+    {
+      key: "marija" as const,
+      person: siteConfig.people.marija,
+      photo: "/images/team/marija-jordanova.jpg",
+    },
   ];
 
   return (
@@ -39,8 +41,14 @@ export default async function Team() {
               key={member.key}
               className="flex flex-col items-center rounded-3xl border border-[var(--color-border)] bg-[var(--color-surface-alt)] p-8 text-center"
             >
-              <div className="flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-br from-[var(--color-navy-700)] to-[var(--color-navy-500)] font-[family-name:var(--font-heading)] text-2xl font-extrabold text-white shadow-lg shadow-[var(--color-navy-700)]/25">
-                {initials(t(`members.${member.key}.name`))}
+              <div className="relative h-28 w-28 overflow-hidden rounded-full shadow-lg shadow-[var(--color-navy-700)]/25 ring-4 ring-white">
+                <Image
+                  src={member.photo}
+                  alt={t(`members.${member.key}.name`)}
+                  fill
+                  className="object-cover"
+                  sizes="112px"
+                />
               </div>
               <h3 className="mt-5 font-[family-name:var(--font-heading)] text-lg font-bold text-[var(--color-ink)]">
                 {t(`members.${member.key}.name`)}
