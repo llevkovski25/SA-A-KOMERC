@@ -39,7 +39,7 @@ export default function HeroBackground() {
             muted
             loop
             playsInline
-            poster="/images/hero/hero-main.jpg"
+            preload="auto"
             onError={() => setVideoFailed(true)}
           >
             <source src="/videos/hero-truck.mp4" type="video/mp4" />

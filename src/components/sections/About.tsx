@@ -10,22 +10,13 @@ export default async function About() {
     <section id="about" className="section-pad bg-white">
       <div className="container-page grid gap-14 lg:grid-cols-2 lg:gap-20">
         <Reveal className="relative">
-          <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-3xl shadow-2xl shadow-black/10 lg:max-w-none">
-            <Image
-              src="/images/gallery/gallery-12.jpg"
-              alt="Саша Спасовски во канцеларијата на САША КОМЕРЦ"
-              fill
-              className="object-cover"
-              sizes="(min-width: 1024px) 45vw, 90vw"
-            />
-          </div>
-          <div className="absolute -bottom-8 -right-4 flex h-28 w-28 items-center justify-center rounded-2xl bg-white p-4 shadow-xl shadow-black/10 sm:-right-8 sm:h-36 sm:w-36">
+          <div className="relative mx-auto flex aspect-[4/5] w-full max-w-md items-center justify-center overflow-hidden rounded-3xl bg-gradient-to-br from-[var(--color-surface-alt)] to-white shadow-2xl shadow-black/10 lg:max-w-none">
             <Image
               src="/images/logo/logo-emblem.png"
-              alt=""
+              alt="SAŠA KOMERC"
               width={500}
               height={245}
-              className="h-full w-full object-contain"
+              className="w-2/3 max-w-xs object-contain"
             />
           </div>
           <div className="absolute left-4 top-4 rounded-2xl bg-[var(--color-navy-800)] px-5 py-3 text-white shadow-lg sm:left-8 sm:top-8">

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
@@ -16,6 +17,12 @@ export default function Header() {
   const tCommon = useTranslations("common");
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- client-mount detection for the portal target; there's no external event to subscribe to instead.
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     function onScroll() {
@@ -104,15 +111,18 @@ export default function Header() {
         </div>
       </div>
 
-      <AnimatePresence>
-        {mobileOpen && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            className="fixed inset-0 z-[60] bg-[var(--color-surface-dark)] lg:hidden"
-          >
+      {mounted &&
+        createPortal(
+          <AnimatePresence>
+            {mobileOpen && (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.2 }}
+                style={{ backgroundColor: "#0c1230" }}
+                className="fixed inset-0 z-[100] overflow-y-auto bg-[var(--color-surface-dark)] lg:hidden"
+              >
             <div className="container-page flex h-20 items-center justify-between">
               <Image
                 src="/images/logo/logo-horizontal.png"
@@ -169,9 +179,11 @@ export default function Header() {
                 {t("getQuote")}
               </a>
             </div>
-          </motion.div>
+              </motion.div>
+            )}
+          </AnimatePresence>,
+          document.body
         )}
-      </AnimatePresence>
     </header>
   );
 }

@@ -7,7 +7,7 @@ import Fleet from "@/components/sections/Fleet";
 import Partner from "@/components/sections/Partner";
 import WhyUs from "@/components/sections/WhyUs";
 import Team from "@/components/sections/Team";
-import Gallery from "@/components/sections/Gallery";
+import Process from "@/components/sections/Process";
 import Contact from "@/components/sections/Contact";
 
 export default async function Home({
@@ -28,7 +28,7 @@ export default async function Home({
       <Partner />
       <WhyUs />
       <Team />
-      <Gallery />
+      <Process />
       <Contact />
     </>
   );

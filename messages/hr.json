@@ -5,7 +5,7 @@
     "pages": {
       "home": {
         "title": "SAŠA KOMERC — Međunarodni cestovni transport i špedicija od 1992.",
-        "description": "Međunarodni cestovni transport, špedicija i logistika iz Skopja. 34+ godina iskustva, 40+ kamiona, partnerstvo s LKW Walter. Dostupni 24/7."
+        "description": "Međunarodni cestovni transport, špedicija i logistika iz Skopja. 34+ godina iskustva, mreža od 40+ kamiona, partnerstvo s LKW Walter. Dostupni 24/7."
       },
       "about": {
         "title": "O nama | SAŠA KOMERC",
@@ -16,12 +16,8 @@
         "description": "Međunarodni cestovni transport, špedicija i logistika te trucking usluge za klijente u Nizozemskoj, Njemačkoj, Švedskoj i Belgiji."
       },
       "fleet": {
-        "title": "Vozni park | SAŠA KOMERC",
-        "description": "Vozni park od 40+ kamiona, tegljača s poluprikolicama, standard Euro 5 i Euro 6, maksimalni kapacitet 25 tona."
-      },
-      "gallery": {
-        "title": "Galerija | SAŠA KOMERC",
-        "description": "Pogled u ured i svakodnevicu tima tvrtke SAŠA KOMERC u Skopju."
+        "title": "Mreža kamiona | SAŠA KOMERC",
+        "description": "Koordiniramo mrežu od 40+ kamiona, tegljača s prikolicama, standard Euro 5 i Euro 6, maksimalni kapacitet 25 tona."
       },
       "contact": {
         "title": "Kontakt | SAŠA KOMERC",
@@ -30,7 +26,7 @@
       "servicesDetail": {
         "transport": {
           "title": "Međunarodni cestovni transport | SAŠA KOMERC",
-          "description": "Round trip ture NL-SE-NL i DE-SE-DE s voznim parkom od 40+ šlepera, Euro 5/6, u partnerstvu s LKW Walter."
+          "description": "Round trip ture NL-SE-NL i DE-SE-DE s mrežom od 40+ šlepera, Euro 5/6, u partnerstvu s LKW Walter."
         },
         "forwarding": {
           "title": "Špedicija i logistika | SAŠA KOMERC",
@@ -47,9 +43,9 @@
     "home": "Početna",
     "about": "O nama",
     "services": "Usluge",
-    "fleet": "Vozni park",
+    "fleet": "Mreža kamiona",
     "partners": "Partneri",
-    "gallery": "Galerija",
+    "process": "Kako radimo",
     "contact": "Kontakt",
     "getQuote": "Zatraži ponudu",
     "callUs": "Nazovite nas"
@@ -65,7 +61,7 @@
       "years": "34+",
       "yearsLabel": "godina iskustva",
       "trucks": "40+",
-      "trucksLabel": "kamiona u voznom parku",
+      "trucksLabel": "kamiona u mreži",
       "countries": "4",
       "countriesLabel": "zemlje u Europi",
       "support": "24/7",
@@ -75,7 +71,7 @@
   "about": {
     "eyebrow": "Naša priča",
     "title": "34 godine na europskim cestama",
-    "paragraph1": "SAŠA KOMERC DOOEL osnovan je 1992. godine od strane Saše Spasovskog, u vrijeme kada je međunarodni transport iz Makedonije zahtijevao ne samo vozni park, već i upornost, ugled i osobne veze izgrađene godinama. Ono što je počelo kao skroman pothvat, preraslo je u prepoznatljivu špeditersku tvrtku koja danas upravlja voznim parkom od preko 40 kamiona i svakodnevno povezuje klijente iz Skopja s destinacijama diljem Zapadne i Sjeverne Europe.",
+    "paragraph1": "SAŠA KOMERC DOOEL osnovan je 1992. godine od strane Saše Spasovskog, u vrijeme kada je međunarodni transport iz Makedonije zahtijevao ne samo vozni park, već i upornost, ugled i osobne veze izgrađene godinama. Ono što je počelo kao skroman pothvat, preraslo je u prepoznatljivu špeditersku tvrtku koja danas koordinira mrežu od preko 40 kamiona i svakodnevno povezuje klijente iz Skopja s destinacijama diljem Zapadne i Sjeverne Europe.",
     "paragraph2": "Kroz sva ova desetljeća, filozofija je ostala ista: svaki teret se tretira osobno, svaki rok se poštuje kao vlastiti, a svaki klijent ostvaruje izravnu komunikaciju s ljudima koji stvarno vode posao. Upravo ta bliskost — u kombinaciji s ozbiljnošću na europskoj razini — omogućila nam je da izgradimo dugoročno partnerstvo s LKW Walter, jednom od vodećih transportnih organizacija u Europi, i zaslužimo povjerenje partnera kojima je potrebna postojanost, a ne samo prijevoz.",
     "paragraph3": "Danas tim tvrtke SAŠA KOMERC, predvođen osnivačem Sašom Spasovskim i Marijom Jordanovom, nastavlja raditi s istom predanošću s kojom je tvrtka započela prije više od tri desetljeća — dostupni 24 sata dnevno, 7 dana u tjednu, za svakog klijenta kojem je potreban partner na kojeg se doista može osloniti.",
     "missionTitle": "Misija",
@@ -94,13 +90,13 @@
       "transport": {
         "title": "Međunarodni cestovni transport",
         "icon": "truck",
-        "summary": "Izravan prijevoz robe vlastitim voznim parkom od preko 40 kamiona po round trip rutama NL-SE-NL i DE-SE-DE, uz punu odgovornost za točnost i sigurnost tereta.",
-        "detail": "Naš prijevoz oslanja se na dobro planirane kružne ture — Nizozemska–Švedska–Nizozemska i Njemačka–Švedska–Njemačka — što omogućuje maksimalnu iskorištenost kapaciteta i kraće rokove isporuke u oba smjera. Vozni park čine tegljači s poluprikolicama (šleperi), standard Euro 5 i Euro 6, s maksimalnim kapacitetom do 25 tona po vozilu. Naši vozači voze i vlastite prikolice, i prikolice iz mreže našeg partnera LKW Walter, što dodatno povećava fleksibilnost pri preuzimanju i isporuci tereta diljem Zapadne Europe. Svaki prijevoz prati se od polaska do isporuke, uz izravnu komunikaciju s klijentom u svakom trenutku.",
+        "summary": "Organiziran prijevoz robe kroz našu mrežu od preko 40 kamiona po round trip rutama NL-SE-NL i DE-SE-DE, uz punu odgovornost za točnost i sigurnost tereta.",
+        "detail": "Naš prijevoz oslanja se na dobro planirane kružne ture — Nizozemska–Švedska–Nizozemska i Njemačka–Švedska–Njemačka — što omogućuje maksimalnu iskorištenost kapaciteta i kraće rokove isporuke u oba smjera. Mrežu čine tegljači s prikolicama, standard Euro 5 i Euro 6, s maksimalnim kapacitetom do 25 tona po vozilu. Radimo s vozačima i prikolicama iz mreže našeg partnera LKW Walter, što dodatno povećava fleksibilnost pri preuzimanju i isporuci tereta diljem Zapadne Europe. Svaki prijevoz prati se od polaska do isporuke, uz izravnu komunikaciju s klijentom u svakom trenutku.",
         "bullets": [
           "Round trip rute NL–SE–NL i DE–SE–DE",
-          "40+ kamiona, Euro 5 i Euro 6 standard",
+          "Mreža od 40+ kamiona, Euro 5 i Euro 6 standard",
           "Maksimalni kapacitet do 25 tona",
-          "Vlastite prikolice i prikolice iz mreže LKW Walter"
+          "Prikolice iz mreže LKW Walter i naših partnera"
         ]
       },
       "forwarding": {
@@ -155,13 +151,13 @@
     }
   },
   "fleet": {
-    "eyebrow": "Naš vozni park",
-    "title": "40+ kamiona spremnih za svaki prijevoz",
-    "paragraph1": "Vozni park tvrtke SAŠA KOMERC danas broji preko 40 kamiona — tegljača s poluprikolicama, usklađenih s ekološkim standardima Euro 5 i Euro 6. Svako vozilo može prevoziti teret maksimalne težine do 25 tona, što pokriva potrebe gotovo svake vrste generalnog tereta na dalekim europskim relacijama.",
-    "paragraph2": "Vozači tvrtke SAŠA KOMERC voze i vlastite prikolice, i prikolice iz mreže našeg dugogodišnjeg partnera LKW Walter, što značajno povećava fleksibilnost pri preuzimanju novog tereta, bez obzira gdje se vozilo trenutno nalazi u Europi. Ova kombinacija vlastitih kapaciteta i pristupa partnerskoj mreži omogućuje nam brz odgovor, čak i na zahtjeve s kratkim rokovima.",
+    "eyebrow": "Naša mreža kamiona",
+    "title": "Mreža od 40+ kamiona, spremnih za svaki prijevoz",
+    "paragraph1": "Mreža tvrtke SAŠA KOMERC danas broji preko 40 kamiona — tegljača s prikolicama, usklađenih s ekološkim standardima Euro 5 i Euro 6 — koje koordiniramo kroz naše dugogodišnje partnerstvo s LKW Walter i drugim provjerenim prijevoznicima. Svako vozilo može prevoziti teret maksimalne težine do 25 tona, što pokriva potrebe gotovo svake vrste generalnog tereta na dalekim europskim relacijama.",
+    "paragraph2": "Kao špediterska tvrtka, mi ne posjedujemo vlastiti vozni park — umjesto toga, organiziramo i koordiniramo svaki prijevoz kroz našu mrežu provjerenih prijevoznika i dugogodišnje partnerstvo s LKW Walter, što značajno povećava fleksibilnost pri preuzimanju novog tereta, bez obzira gdje se vozilo trenutno nalazi u Europi. Ova kombinacija iskustva, pouzdanih partnera i pristupa širokoj mreži omogućuje nam brz odgovor, čak i na zahtjeve s kratkim rokovima.",
     "stats": {
       "trucks": "40+",
-      "trucksLabel": "kamiona u voznom parku",
+      "trucksLabel": "kamiona u mreži",
       "capacity": "25t",
       "capacityLabel": "maksimalni kapacitet",
       "standard": "Euro 5/6",
@@ -223,10 +219,28 @@
       }
     }
   },
-  "gallery": {
-    "eyebrow": "Iza kulisa",
-    "title": "Naš ured u Skopju",
-    "subtitle": "Pogled u prostor iz kojeg se svakodnevno koordiniraju prijevozi diljem Europe."
+  "process": {
+    "eyebrow": "Kako radimo",
+    "title": "Od upita do isporuke, korak po korak",
+    "subtitle": "Jednostavan i transparentan proces koji vam pruža potpunu jasnoću za svaki vaš prijevoz.",
+    "steps": [
+      {
+        "title": "Zatraži ponudu",
+        "description": "Pošaljite nam detalje o teretu — podrijetlo, destinaciju, vrstu i težinu — a mi brzo vraćamo konkurentnu ponudu."
+      },
+      {
+        "title": "Planiranje i koordinacija",
+        "description": "Planiramo najbolju rutu, pripremamo dokumentaciju i koordiniramo s našom mrežom partnera diljem Europe."
+      },
+      {
+        "title": "Utovar i prijevoz",
+        "description": "Teret se preuzima na vrijeme i prevozi uz potpunu sljedivost i izravnu komunikaciju tijekom cijelog puta."
+      },
+      {
+        "title": "Isporuka i potvrda",
+        "description": "Roba stiže sigurno na destinaciju, a mi potvrđujemo uspješnu isporuku zajedno s cjelokupnom dokumentacijom."
+      }
+    ]
   },
   "contact": {
     "eyebrow": "Kontakt",

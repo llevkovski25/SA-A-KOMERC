@@ -17,8 +17,6 @@ export default async function Services() {
     icon: meta.icon,
     title: t(`items.${meta.key}.title`),
     summary: t(`items.${meta.key}.summary`),
-    detail: t(`items.${meta.key}.detail`),
-    bullets: t.raw(`items.${meta.key}.bullets`) as string[],
   }));
 
   return (
@@ -36,12 +34,7 @@ export default async function Services() {
           </p>
         </Reveal>
 
-        <ServicesClient
-          items={items}
-          learnMoreLabel={t("learnMore")}
-          showLessLabel={t("showLess")}
-          viewDetailsLabel={t("viewDetails")}
-        />
+        <ServicesClient items={items} learnMoreLabel={t("learnMore")} />
       </div>
     </section>
   );

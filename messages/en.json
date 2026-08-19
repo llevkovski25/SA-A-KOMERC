@@ -5,7 +5,7 @@
     "pages": {
       "home": {
         "title": "SAŠA KOMERC — International Road Transport & Freight Forwarding Since 1992",
-        "description": "International road transport, freight forwarding and logistics from Skopje. 34+ years of experience, 40+ trucks, partnership with LKW Walter. Available 24/7."
+        "description": "International road transport, freight forwarding and logistics from Skopje. 34+ years of experience, a network of 40+ trucks, partnership with LKW Walter. Available 24/7."
       },
       "about": {
         "title": "About Us | SAŠA KOMERC",
@@ -16,12 +16,8 @@
         "description": "International road transport, freight forwarding and logistics, and trucking services for clients in the Netherlands, Germany, Sweden and Belgium."
       },
       "fleet": {
-        "title": "Fleet | SAŠA KOMERC",
-        "description": "A fleet of 40+ trucks, tractor units with semi-trailers, Euro 5 and Euro 6 standard, maximum capacity of 25 tonnes."
-      },
-      "gallery": {
-        "title": "Gallery | SAŠA KOMERC",
-        "description": "A look inside the office and everyday life of the SAŠA KOMERC team in Skopje."
+        "title": "Truck Network | SAŠA KOMERC",
+        "description": "We coordinate a network of 40+ trucks, tractor units with trailers, Euro 5 and Euro 6 standard, maximum capacity of 25 tonnes."
       },
       "contact": {
         "title": "Contact | SAŠA KOMERC",
@@ -30,7 +26,7 @@
       "servicesDetail": {
         "transport": {
           "title": "International Road Transport | SAŠA KOMERC",
-          "description": "Round trip tours NL-SE-NL and DE-SE-DE with a fleet of 40+ semi-trailers, Euro 5/6, in partnership with LKW Walter."
+          "description": "Round trip tours NL-SE-NL and DE-SE-DE with a network of 40+ trailers, Euro 5/6, in partnership with LKW Walter."
         },
         "forwarding": {
           "title": "Freight Forwarding & Logistics | SAŠA KOMERC",
@@ -47,9 +43,9 @@
     "home": "Home",
     "about": "About Us",
     "services": "Services",
-    "fleet": "Fleet",
+    "fleet": "Truck Network",
     "partners": "Partners",
-    "gallery": "Gallery",
+    "process": "How We Work",
     "contact": "Contact",
     "getQuote": "Request a Quote",
     "callUs": "Call Us"
@@ -65,7 +61,7 @@
       "years": "34+",
       "yearsLabel": "years of experience",
       "trucks": "40+",
-      "trucksLabel": "trucks in our fleet",
+      "trucksLabel": "trucks in our network",
       "countries": "4",
       "countriesLabel": "countries in Europe",
       "support": "24/7",
@@ -75,7 +71,7 @@
   "about": {
     "eyebrow": "Our story",
     "title": "34 years on Europe's roads",
-    "paragraph1": "SAŠA KOMERC DOOEL was founded in 1992 by Saša Spasovski, at a time when international transport out of Macedonia demanded more than just a fleet of trucks — it demanded persistence, reputation, and personal relationships built over years. What began as a modest venture has grown into a recognised freight forwarding company that today operates a fleet of over 40 trucks and connects clients from Skopje to destinations across Western and Northern Europe every single day.",
+    "paragraph1": "SAŠA KOMERC DOOEL was founded in 1992 by Saša Spasovski, at a time when international transport out of Macedonia demanded more than just a fleet of trucks — it demanded persistence, reputation, and personal relationships built over years. What began as a modest venture has grown into a recognised freight forwarding company that today coordinates a network of over 40 trucks and connects clients from Skopje to destinations across Western and Northern Europe every single day.",
     "paragraph2": "Through all these decades, the philosophy has stayed the same: every shipment is treated personally, every deadline is honoured as our own, and every client speaks directly to the people who actually run the business. That closeness — combined with a seriousness that matches European standards — is what allowed us to build a long-term partnership with LKW Walter, one of Europe's leading transport organisations, and to earn the trust of partners who need consistency, not just haulage.",
     "paragraph3": "Today, the SAŠA KOMERC team, led by founder Saša Spasovski and Marija Jordanova, continues to work with the same dedication the company was built on more than three decades ago — available 24 hours a day, 7 days a week, for every client who needs a partner they can truly rely on.",
     "missionTitle": "Mission",
@@ -94,13 +90,13 @@
       "transport": {
         "title": "International Road Transport",
         "icon": "truck",
-        "summary": "Direct transport of goods with our own fleet of 40+ trucks along the NL-SE-NL and DE-SE-DE round trip routes, with full responsibility for the timeliness and safety of the cargo.",
-        "detail": "Our transport relies on well-planned round trips — Netherlands–Sweden–Netherlands and Germany–Sweden–Germany — which allows maximum capacity utilisation and shorter delivery times in both directions. The fleet consists of tractor units with semi-trailers, Euro 5 and Euro 6 standard, with a maximum capacity of up to 25 tonnes per vehicle. Our drivers operate both our own trailers and trailers from the network of our partner LKW Walter, which further increases flexibility when picking up and delivering cargo across Western Europe. Every shipment is tracked from departure to delivery, with direct communication with the client at every stage.",
+        "summary": "Organised transport of goods through our network of over 40 trucks along the NL-SE-NL and DE-SE-DE round trip routes, with full responsibility for the timeliness and safety of the cargo.",
+        "detail": "Our transport relies on well-planned round trips — Netherlands–Sweden–Netherlands and Germany–Sweden–Germany — which allows maximum capacity utilisation and shorter delivery times in both directions. The network consists of tractor units with trailers, Euro 5 and Euro 6 standard, with a maximum capacity of up to 25 tonnes per vehicle. We work with drivers and trailers from the network of our partner LKW Walter, which further increases flexibility when picking up and delivering cargo across Western Europe. Every shipment is tracked from departure to delivery, with direct communication with the client at every stage.",
         "bullets": [
           "Round trip routes NL–SE–NL and DE–SE–DE",
-          "40+ trucks, Euro 5 and Euro 6 standard",
+          "Network of 40+ trucks, Euro 5 and Euro 6 standard",
           "Maximum capacity of up to 25 tonnes",
-          "Own trailers plus trailers from the LKW Walter network"
+          "Trailers from the LKW Walter network and our partners"
         ]
       },
       "forwarding": {
@@ -155,13 +151,13 @@
     }
   },
   "fleet": {
-    "eyebrow": "Our fleet",
-    "title": "40+ trucks ready for every haul",
-    "paragraph1": "The SAŠA KOMERC fleet today counts over 40 trucks — tractor units with semi-trailers, compliant with the Euro 5 and Euro 6 environmental standards. Each vehicle can carry cargo weighing up to 25 tonnes, covering the needs of nearly every type of general cargo on long-distance European routes.",
-    "paragraph2": "SAŠA KOMERC drivers operate both our own trailers and trailers from the network of our long-standing partner LKW Walter, which significantly increases flexibility when picking up new cargo, regardless of where in Europe the vehicle happens to be. This combination of owned capacity and access to a partner network allows us to respond quickly, even to requests with tight deadlines.",
+    "eyebrow": "Our truck network",
+    "title": "A network of 40+ trucks, ready for every haul",
+    "paragraph1": "The SAŠA KOMERC network today counts over 40 trucks — tractor units with trailers, compliant with the Euro 5 and Euro 6 environmental standards — which we coordinate through our long-standing partnership with LKW Walter and other trusted carriers. Each vehicle can carry cargo weighing up to 25 tonnes, covering the needs of nearly every type of general cargo on long-distance European routes.",
+    "paragraph2": "As a freight forwarding company, we don't own a fleet of our own — instead, we organise and coordinate every shipment through our network of trusted carriers and our long-standing partnership with LKW Walter, which significantly increases flexibility when picking up new cargo, regardless of where in Europe the vehicle happens to be. This combination of experience, reliable partners and access to a wide network allows us to respond quickly, even to requests with tight deadlines.",
     "stats": {
       "trucks": "40+",
-      "trucksLabel": "trucks in our fleet",
+      "trucksLabel": "trucks in our network",
       "capacity": "25t",
       "capacityLabel": "maximum capacity",
       "standard": "Euro 5/6",
@@ -223,10 +219,28 @@
       }
     }
   },
-  "gallery": {
-    "eyebrow": "Behind the scenes",
-    "title": "Our office in Skopje",
-    "subtitle": "A look inside the space where transports across Europe are coordinated every day."
+  "process": {
+    "eyebrow": "How We Work",
+    "title": "From request to delivery, step by step",
+    "subtitle": "A simple, transparent process that gives you full clarity on every shipment.",
+    "steps": [
+      {
+        "title": "Request a Quote",
+        "description": "Send us your cargo details — origin, destination, type and weight — and we'll quickly get back to you with a competitive quote."
+      },
+      {
+        "title": "Planning & Coordination",
+        "description": "We plan the best route, prepare the documentation, and coordinate with our network of partners across Europe."
+      },
+      {
+        "title": "Loading & Transport",
+        "description": "Your cargo is picked up on time and transported with full traceability and direct communication throughout the journey."
+      },
+      {
+        "title": "Delivery & Confirmation",
+        "description": "The goods arrive safely at their destination, and we confirm successful delivery along with all the paperwork."
+      }
+    ]
   },
   "contact": {
     "eyebrow": "Contact",

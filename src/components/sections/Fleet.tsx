@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { Reveal, RevealGroup, RevealItem } from "@/components/ui/Reveal";
 import AnimatedStat from "@/components/ui/AnimatedStat";
 
-const galleryImages = [
+const featureImages = [
   "/images/features/feature-24-7-logistics.jpg",
   "/images/features/feature-freight-forwarding.jpg",
   "/images/features/feature-logistics-control.jpg",
@@ -63,7 +63,7 @@ export default async function Fleet() {
         </RevealGroup>
 
         <RevealGroup className="mt-14 grid grid-cols-2 gap-4 md:grid-cols-4" stagger={0.08}>
-          {galleryImages.map((src) => (
+          {featureImages.map((src) => (
             <RevealItem
               key={src}
               className="group relative aspect-[4/3] overflow-hidden rounded-2xl"

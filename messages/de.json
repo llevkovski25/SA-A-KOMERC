@@ -5,7 +5,7 @@
     "pages": {
       "home": {
         "title": "SAŠA KOMERC — Internationaler Straßentransport & Spedition seit 1992",
-        "description": "Internationaler Straßentransport, Spedition und Logistik aus Skopje. 34+ Jahre Erfahrung, 40+ LKW, Partnerschaft mit LKW Walter. Rund um die Uhr erreichbar."
+        "description": "Internationaler Straßentransport, Spedition und Logistik aus Skopje. 34+ Jahre Erfahrung, ein Netzwerk von 40+ LKW, Partnerschaft mit LKW Walter. Rund um die Uhr erreichbar."
       },
       "about": {
         "title": "Über uns | SAŠA KOMERC",
@@ -16,12 +16,8 @@
         "description": "Internationaler Straßentransport, Spedition und Logistik sowie Trucking-Leistungen für Kunden in den Niederlanden, Deutschland, Schweden und Belgien."
       },
       "fleet": {
-        "title": "Fuhrpark | SAŠA KOMERC",
-        "description": "Ein Fuhrpark von über 40 LKW, Sattelzugmaschinen, Euro-5- und Euro-6-Standard, maximale Nutzlast von 25 Tonnen."
-      },
-      "gallery": {
-        "title": "Galerie | SAŠA KOMERC",
-        "description": "Ein Einblick in das Büro und den Arbeitsalltag des SAŠA KOMERC-Teams in Skopje."
+        "title": "LKW-Netzwerk | SAŠA KOMERC",
+        "description": "Wir koordinieren ein Netzwerk von über 40 LKW, Zugmaschinen mit Anhängern, Euro-5- und Euro-6-Standard, maximale Nutzlast von 25 Tonnen."
       },
       "contact": {
         "title": "Kontakt | SAŠA KOMERC",
@@ -30,7 +26,7 @@
       "servicesDetail": {
         "transport": {
           "title": "Internationaler Straßentransport | SAŠA KOMERC",
-          "description": "Rundtouren NL-SE-NL und DE-SE-DE mit einem Fuhrpark von über 40 Sattelzügen, Euro 5/6, in Partnerschaft mit LKW Walter."
+          "description": "Rundtouren NL-SE-NL und DE-SE-DE mit einem Netzwerk von über 40 Sattelzügen, Euro 5/6, in Partnerschaft mit LKW Walter."
         },
         "forwarding": {
           "title": "Spedition & Logistik | SAŠA KOMERC",
@@ -47,9 +43,9 @@
     "home": "Startseite",
     "about": "Über uns",
     "services": "Leistungen",
-    "fleet": "Fuhrpark",
+    "fleet": "LKW-Netzwerk",
     "partners": "Partner",
-    "gallery": "Galerie",
+    "process": "So arbeiten wir",
     "contact": "Kontakt",
     "getQuote": "Angebot anfordern",
     "callUs": "Rufen Sie uns an"
@@ -65,7 +61,7 @@
       "years": "34+",
       "yearsLabel": "Jahre Erfahrung",
       "trucks": "40+",
-      "trucksLabel": "LKW im Fuhrpark",
+      "trucksLabel": "LKW im Netzwerk",
       "countries": "4",
       "countriesLabel": "Länder in Europa",
       "support": "24/7",
@@ -75,7 +71,7 @@
   "about": {
     "eyebrow": "Unsere Geschichte",
     "title": "34 Jahre auf Europas Straßen",
-    "paragraph1": "SAŠA KOMERC DOOEL wurde 1992 von Saša Spasovski gegründet, zu einer Zeit, als internationaler Transport aus Mazedonien mehr erforderte als nur einen Fuhrpark — es brauchte Ausdauer, Ansehen und persönliche Beziehungen, die über Jahre aufgebaut wurden. Was als bescheidenes Unternehmen begann, ist zu einer anerkannten Speditionsfirma herangewachsen, die heute einen Fuhrpark von über 40 LKW betreibt und täglich Kunden aus Skopje mit Zielen in ganz West- und Nordeuropa verbindet.",
+    "paragraph1": "SAŠA KOMERC DOOEL wurde 1992 von Saša Spasovski gegründet, zu einer Zeit, als internationaler Transport aus Mazedonien mehr erforderte als nur einen Fuhrpark — es brauchte Ausdauer, Ansehen und persönliche Beziehungen, die über Jahre aufgebaut wurden. Was als bescheidenes Unternehmen begann, ist zu einer anerkannten Speditionsfirma herangewachsen, die heute ein Netzwerk von über 40 LKW koordiniert und täglich Kunden aus Skopje mit Zielen in ganz West- und Nordeuropa verbindet.",
     "paragraph2": "Über all diese Jahrzehnte ist die Philosophie dieselbe geblieben: Jede Sendung wird persönlich behandelt, jede Frist wird eingehalten wie die eigene, und jeder Kunde spricht direkt mit den Menschen, die das Geschäft tatsächlich führen. Genau diese Nähe — verbunden mit einem Ernst auf europäischem Niveau — hat es uns ermöglicht, eine langfristige Partnerschaft mit LKW Walter aufzubauen, einer der führenden Transportorganisationen Europas, und das Vertrauen von Partnern zu gewinnen, die Beständigkeit brauchen, nicht nur Transport.",
     "paragraph3": "Heute arbeitet das Team von SAŠA KOMERC, geführt vom Gründer Saša Spasovski und Marija Jordanova, mit derselben Hingabe weiter, mit der das Unternehmen vor mehr als drei Jahrzehnten gegründet wurde — rund um die Uhr, sieben Tage die Woche erreichbar, für jeden Kunden, der einen Partner braucht, auf den er sich wirklich verlassen kann.",
     "missionTitle": "Mission",
@@ -94,13 +90,13 @@
       "transport": {
         "title": "Internationaler Straßentransport",
         "icon": "truck",
-        "summary": "Direkter Warentransport mit unserem eigenen Fuhrpark von über 40 LKW auf den Rundtouren NL-SE-NL und DE-SE-DE, mit voller Verantwortung für Pünktlichkeit und Sicherheit der Ladung.",
-        "detail": "Unser Transport basiert auf gut geplanten Rundtouren — Niederlande–Schweden–Niederlande und Deutschland–Schweden–Deutschland —, die eine maximale Kapazitätsauslastung und kürzere Lieferzeiten in beide Richtungen ermöglichen. Der Fuhrpark besteht aus Sattelzugmaschinen mit Aufliegern, Euro-5- und Euro-6-Standard, mit einer maximalen Nutzlast von bis zu 25 Tonnen pro Fahrzeug. Unsere Fahrer fahren sowohl mit eigenen Aufliegern als auch mit Aufliegern aus dem Netzwerk unseres Partners LKW Walter, was die Flexibilität bei der Abholung und Zustellung von Ladungen in ganz Westeuropa zusätzlich erhöht. Jeder Transport wird von der Abfahrt bis zur Zustellung verfolgt, mit direkter Kommunikation mit dem Kunden zu jedem Zeitpunkt.",
+        "summary": "Organisierter Warentransport über unser Netzwerk von über 40 LKW auf den Rundtouren NL-SE-NL und DE-SE-DE, mit voller Verantwortung für Pünktlichkeit und Sicherheit der Ladung.",
+        "detail": "Unser Transport basiert auf gut geplanten Rundtouren — Niederlande–Schweden–Niederlande und Deutschland–Schweden–Deutschland —, die eine maximale Kapazitätsauslastung und kürzere Lieferzeiten in beide Richtungen ermöglichen. Das Netzwerk besteht aus Zugmaschinen mit Anhängern, Euro-5- und Euro-6-Standard, mit einer maximalen Nutzlast von bis zu 25 Tonnen pro Fahrzeug. Wir arbeiten mit Fahrern und Anhängern aus dem Netzwerk unseres Partners LKW Walter, was die Flexibilität bei der Abholung und Zustellung von Ladungen in ganz Westeuropa zusätzlich erhöht. Jeder Transport wird von der Abfahrt bis zur Zustellung verfolgt, mit direkter Kommunikation mit dem Kunden zu jedem Zeitpunkt.",
         "bullets": [
           "Rundtouren NL–SE–NL und DE–SE–DE",
-          "40+ LKW, Euro-5- und Euro-6-Standard",
+          "Netzwerk von 40+ LKW, Euro-5- und Euro-6-Standard",
           "Maximale Nutzlast bis zu 25 Tonnen",
-          "Eigene Auflieger sowie Auflieger aus dem LKW-Walter-Netzwerk"
+          "Anhänger aus dem LKW-Walter-Netzwerk und unseren Partnern"
         ]
       },
       "forwarding": {
@@ -155,13 +151,13 @@
     }
   },
   "fleet": {
-    "eyebrow": "Unser Fuhrpark",
-    "title": "40+ LKW für jeden Transport bereit",
-    "paragraph1": "Der Fuhrpark von SAŠA KOMERC umfasst heute über 40 LKW — Sattelzugmaschinen mit Aufliegern, die den Umweltstandards Euro 5 und Euro 6 entsprechen. Jedes Fahrzeug kann eine Ladung mit einem Höchstgewicht von bis zu 25 Tonnen transportieren, was den Bedarf nahezu jeder Art von Stückgut auf europäischen Fernstrecken abdeckt.",
-    "paragraph2": "Die Fahrer von SAŠA KOMERC fahren sowohl mit eigenen Aufliegern als auch mit Aufliegern aus dem Netzwerk unseres langjährigen Partners LKW Walter, was die Flexibilität bei der Übernahme neuer Ladungen erheblich erhöht, unabhängig davon, wo sich das Fahrzeug in Europa gerade befindet. Diese Kombination aus eigenen Kapazitäten und Zugang zu einem Partnernetzwerk ermöglicht es uns, schnell zu reagieren — auch bei Anfragen mit kurzen Fristen.",
+    "eyebrow": "Unser LKW-Netzwerk",
+    "title": "Ein Netzwerk von 40+ LKW, bereit für jeden Transport",
+    "paragraph1": "Das Netzwerk von SAŠA KOMERC umfasst heute über 40 LKW — Zugmaschinen mit Anhängern, die den Umweltstandards Euro 5 und Euro 6 entsprechen —, die wir durch unsere langjährige Partnerschaft mit LKW Walter und anderen vertrauenswürdigen Frachtführern koordinieren. Jedes Fahrzeug kann eine Ladung mit einem Höchstgewicht von bis zu 25 Tonnen transportieren, was den Bedarf nahezu jeder Art von Stückgut auf europäischen Fernstrecken abdeckt.",
+    "paragraph2": "Als Speditionsunternehmen besitzen wir keinen eigenen Fuhrpark — stattdessen organisieren und koordinieren wir jeden Transport über unser Netzwerk vertrauenswürdiger Frachtführer und unsere langjährige Partnerschaft mit LKW Walter, was die Flexibilität bei der Übernahme neuer Ladungen erheblich erhöht, unabhängig davon, wo sich das Fahrzeug in Europa gerade befindet. Diese Kombination aus Erfahrung, verlässlichen Partnern und Zugang zu einem breiten Netzwerk ermöglicht es uns, schnell zu reagieren — auch bei Anfragen mit kurzen Fristen.",
     "stats": {
       "trucks": "40+",
-      "trucksLabel": "LKW im Fuhrpark",
+      "trucksLabel": "LKW im Netzwerk",
       "capacity": "25t",
       "capacityLabel": "maximale Nutzlast",
       "standard": "Euro 5/6",
@@ -223,10 +219,28 @@
       }
     }
   },
-  "gallery": {
-    "eyebrow": "Hinter den Kulissen",
-    "title": "Unser Büro in Skopje",
-    "subtitle": "Ein Einblick in den Raum, in dem täglich Transporte in ganz Europa koordiniert werden."
+  "process": {
+    "eyebrow": "So arbeiten wir",
+    "title": "Von der Anfrage bis zur Zustellung, Schritt für Schritt",
+    "subtitle": "Ein einfacher, transparenter Prozess, der Ihnen volle Klarheit über jeden Transport gibt.",
+    "steps": [
+      {
+        "title": "Angebot anfordern",
+        "description": "Senden Sie uns die Details Ihrer Ladung — Herkunft, Ziel, Art und Gewicht — und wir melden uns schnell mit einem wettbewerbsfähigen Angebot zurück."
+      },
+      {
+        "title": "Planung & Koordination",
+        "description": "Wir planen die beste Route, bereiten die Dokumentation vor und koordinieren mit unserem Partnernetzwerk in ganz Europa."
+      },
+      {
+        "title": "Beladung & Transport",
+        "description": "Ihre Ladung wird pünktlich abgeholt und mit voller Nachverfolgbarkeit und direkter Kommunikation während der gesamten Fahrt transportiert."
+      },
+      {
+        "title": "Zustellung & Bestätigung",
+        "description": "Die Ware kommt sicher am Ziel an, und wir bestätigen die erfolgreiche Zustellung samt aller Unterlagen."
+      }
+    ]
   },
   "contact": {
     "eyebrow": "Kontakt",
