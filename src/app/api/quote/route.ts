@@ -85,7 +85,7 @@ export async function POST(request: Request) {
   const resend = new Resend(process.env.RESEND_API_KEY);
 
   const { error } = await resend.emails.send({
-    from: "SAŠA KOMERC веб-сајт <onboarding@resend.dev>",
+    from: "САША КОМЕРЦ веб-сајт <noreply@sasakomerc.mk>",
     to: [QUOTE_RECIPIENT],
     replyTo: result.data.email,
     subject: `Ново барање за понуда — ${result.data.name}`,
