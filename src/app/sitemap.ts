@@ -3,39 +3,30 @@ import { routing } from "@/i18n/routing";
 import { serviceSlugs } from "@/lib/services";
 import { siteConfig } from "@/lib/site";
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const routes: MetadataRoute.Sitemap = [];
+const pages = [
+  { path: "", changeFrequency: "weekly" as const, priority: 1 },
+  { path: "/about", changeFrequency: "monthly" as const, priority: 0.8 },
+  { path: "/fleet", changeFrequency: "monthly" as const, priority: 0.8 },
+  { path: "/contact", changeFrequency: "monthly" as const, priority: 0.8 },
+  ...serviceSlugs.map((service) => ({
+    path: `/services/${service.slug}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  })),
+];
 
-  for (const locale of routing.locales) {
-    routes.push({
-      url: `${siteConfig.url}/${locale}`,
+export default function sitemap(): MetadataRoute.Sitemap {
+  return routing.locales.flatMap((locale) =>
+    pages.map((page) => ({
+      url: `${siteConfig.url}/${locale}${page.path}`,
       lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 1,
+      changeFrequency: page.changeFrequency,
+      priority: page.priority,
       alternates: {
         languages: Object.fromEntries(
-          routing.locales.map((l) => [l, `${siteConfig.url}/${l}`])
+          routing.locales.map((l) => [l, `${siteConfig.url}/${l}${page.path}`])
         ),
       },
-    });
-
-    for (const service of serviceSlugs) {
-      routes.push({
-        url: `${siteConfig.url}/${locale}/services/${service.slug}`,
-        lastModified: new Date(),
-        changeFrequency: "monthly",
-        priority: 0.7,
-        alternates: {
-          languages: Object.fromEntries(
-            routing.locales.map((l) => [
-              l,
-              `${siteConfig.url}/${l}/services/${service.slug}`,
-            ])
-          ),
-        },
-      });
-    }
-  }
-
-  return routes;
+    }))
+  );
 }

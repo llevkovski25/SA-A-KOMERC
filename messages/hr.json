@@ -44,8 +44,6 @@
     "about": "O nama",
     "services": "Usluge",
     "fleet": "Mreža kamiona",
-    "partners": "Partneri",
-    "process": "Kako radimo",
     "contact": "Kontakt",
     "getQuote": "Zatraži ponudu",
     "callUs": "Nazovite nas"
@@ -53,7 +51,7 @@
   "hero": {
     "eyebrow": "Međunarodni transport i špedicija od 1992. godine",
     "title": "Vaš teret, naša odgovornost.",
-    "subtitle": "SAŠA KOMERC je tvrtka s dugogodišnjim iskustvom u organizaciji i koordinaciji međunarodnog transporta diljem Europe. Povezujemo vaš posao s pouzdanim prijevozom i profesionalnom uslugom — od prvog poziva do uspješne isporuke.",
+    "subtitle": "Povezujemo vaš posao s pouzdanim prijevozom i profesionalnom uslugom — od prvog poziva do uspješne isporuke.",
     "ctaPrimary": "Zatraži ponudu",
     "ctaSecondary": "Kontaktirajte nas",
     "scrollHint": "Skrolajte",
@@ -71,6 +69,7 @@
   "about": {
     "eyebrow": "Naša priča",
     "title": "34 godine na europskim cestama",
+    "intro": "SAŠA KOMERC je tvrtka s dugogodišnjim iskustvom u organizaciji i koordinaciji međunarodnog transporta diljem Europe.",
     "paragraph1": "SAŠA KOMERC DOOEL osnovan je 1992. godine od strane Saše Spasovskog, u vrijeme kada je međunarodni transport iz Makedonije zahtijevao ne samo vozni park, već i upornost, ugled i osobne veze izgrađene godinama. Ono što je počelo kao skroman pothvat, preraslo je u prepoznatljivu špeditersku tvrtku koja danas koordinira mrežu od preko 40 kamiona i svakodnevno povezuje klijente iz Skopja s destinacijama diljem Zapadne i Sjeverne Europe.",
     "paragraph2": "Kroz sva ova desetljeća, filozofija je ostala ista: svaki teret se tretira osobno, svaki rok se poštuje kao vlastiti, a svaki klijent ostvaruje izravnu komunikaciju s ljudima koji stvarno vode posao. Upravo ta bliskost — u kombinaciji s ozbiljnošću na europskoj razini — omogućila nam je da izgradimo dugoročno partnerstvo s LKW Walter, jednom od vodećih transportnih organizacija u Europi, i zaslužimo povjerenje partnera kojima je potrebna postojanost, a ne samo prijevoz.",
     "paragraph3": "Danas tim tvrtke SAŠA KOMERC, predvođen osnivačem Sašom Spasovskim i Marijom Jordanovom, nastavlja raditi s istom predanošću s kojom je tvrtka započela prije više od tri desetljeća — dostupni 24 sata dnevno, 7 dana u tjednu, za svakog klijenta kojem je potreban partner na kojeg se doista može osloniti.",
@@ -169,6 +168,7 @@
   "partner": {
     "eyebrow": "Strateško partnerstvo",
     "title": "Dio mreže LKW Walter",
+    "short": "Ovo partnerstvo nije samo poslovni dogovor — to je potvrda kvalitete i ozbiljnosti s kojom SAŠA KOMERC posluje već tri desetljeća.",
     "paragraph1": "LKW Walter (Internationale Transportorganisation AG) jedna je od vodećih međunarodnih transportnih organizacija u Europi, sa sjedištem u Austriji i mrežom prijevoznika koja obuhvaća tisuće vozila diljem kontinenta. SAŠA KOMERC je ponosni partner ove mreže već dulji niz godina, što nam omogućuje pristup dodatnim teretima, prikolicama i logističkoj podršci diljem Zapadne i Sjeverne Europe.",
     "paragraph2": "Ovo partnerstvo nije samo poslovni dogovor — to je potvrda kvalitete i ozbiljnosti s kojom SAŠA KOMERC posluje već tri desetljeća. Da bi se bilo dio mreže LKW Walter, potrebno je stalno ispunjavanje strogih standarda za sigurnost, kvalitetu i točnost, a naš tim posjeduje certifikate koji upravo to potvrđuju."
   },

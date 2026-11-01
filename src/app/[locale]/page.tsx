@@ -1,14 +1,14 @@
 import { setRequestLocale } from "next-intl/server";
 import Hero from "@/components/sections/Hero";
-import About from "@/components/sections/About";
+import InfoStrip from "@/components/sections/InfoStrip";
 import Services from "@/components/sections/Services";
-import Destinations from "@/components/sections/Destinations";
-import Fleet from "@/components/sections/Fleet";
-import Partner from "@/components/sections/Partner";
+import Marquee from "@/components/sections/Marquee";
+import AboutBand from "@/components/sections/AboutBand";
 import WhyUs from "@/components/sections/WhyUs";
-import Team from "@/components/sections/Team";
+import Destinations from "@/components/sections/Destinations";
 import Process from "@/components/sections/Process";
-import Contact from "@/components/sections/Contact";
+import Team from "@/components/sections/Team";
+import TrustCta from "@/components/sections/TrustCta";
 
 export default async function Home({
   params,
@@ -21,15 +21,15 @@ export default async function Home({
   return (
     <>
       <Hero />
-      <About />
+      <InfoStrip />
       <Services />
-      <Destinations />
-      <Fleet />
-      <Partner />
+      <Marquee />
+      <AboutBand />
       <WhyUs />
-      <Team />
+      <Destinations />
       <Process />
-      <Contact />
+      <Team compact />
+      <TrustCta />
     </>
   );
 }

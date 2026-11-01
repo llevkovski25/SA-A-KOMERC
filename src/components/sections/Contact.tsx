@@ -28,46 +28,46 @@ function PersonCard({
   facebook: string;
 }) {
   return (
-    <div className="rounded-2xl border border-[var(--color-border)] bg-white p-6">
+    <div className="rounded-2xl border-2 border-[var(--color-border)] bg-white p-4 transition-all md:p-6 duration-300 hover:-translate-y-1 hover:border-[var(--color-amber)] hover:shadow-lg hover:shadow-[var(--color-amber)]/25">
       <p className="font-[family-name:var(--font-heading)] font-bold text-[var(--color-ink)]">
         {name}
       </p>
       <p className="text-sm text-[var(--color-navy-600)]">{role}</p>
-      <div className="mt-4 space-y-2 text-sm text-[var(--color-ink)]/75">
-        <a href={telLink(phoneIntl)} className="flex items-center gap-2 hover:text-[var(--color-navy-700)]">
-          <Phone size={15} className="text-[var(--color-ink)]/40" />
+      <div className="mt-2 text-sm font-medium text-[var(--color-ink)]/80 md:mt-4 md:space-y-2">
+        <a href={telLink(phoneIntl)} className="flex items-center gap-2 py-2 hover:text-[var(--color-navy-700)] md:py-0">
+          <Phone size={15} className="shrink-0 text-[var(--color-navy-600)]" />
           {phone}
         </a>
-        <a href={`mailto:${email}`} className="flex items-center gap-2 hover:text-[var(--color-navy-700)]">
-          <Mail size={15} className="text-[var(--color-ink)]/40" />
+        <a href={`mailto:${email}`} className="flex items-center gap-2 py-2 [overflow-wrap:anywhere] hover:text-[var(--color-navy-700)] md:py-0">
+          <Mail size={15} className="shrink-0 text-[var(--color-navy-600)]" />
           {email}
         </a>
       </div>
-      <div className="mt-4 flex gap-2.5">
+      <div className="mt-3 flex gap-2.5 md:mt-4">
         <a
           href={whatsappLink(phoneIntl)}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="WhatsApp"
-          className="flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366]/10 text-[#25D366] transition-transform hover:scale-110"
+          className="flex h-11 w-11 items-center justify-center rounded-full bg-[#25D366]/10 text-[#25D366] transition-transform hover:scale-110"
         >
-          <WhatsAppIcon size={17} />
+          <WhatsAppIcon size={20} />
         </a>
         <a
           href={viberLink(phoneIntl)}
           aria-label="Viber"
-          className="flex h-9 w-9 items-center justify-center rounded-full bg-[#7360F2]/10 text-[#7360F2] transition-transform hover:scale-110"
+          className="flex h-11 w-11 items-center justify-center rounded-full bg-[#7360F2]/10 text-[#7360F2] transition-transform hover:scale-110"
         >
-          <ViberIcon size={17} />
+          <ViberIcon size={20} />
         </a>
         <a
           href={facebook}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Messenger"
-          className="flex h-9 w-9 items-center justify-center rounded-full bg-[#0084FF]/10 text-[#0084FF] transition-transform hover:scale-110"
+          className="flex h-11 w-11 items-center justify-center rounded-full bg-[#0084FF]/10 text-[#0084FF] transition-transform hover:scale-110"
         >
-          <MessengerIcon size={17} />
+          <MessengerIcon size={20} />
         </a>
       </div>
     </div>
@@ -80,25 +80,13 @@ export default async function Contact() {
   return (
     <section id="contact" className="section-pad bg-[var(--color-surface-alt)]">
       <div className="container-page">
-        <Reveal className="mx-auto max-w-2xl text-center">
-          <span className="text-sm font-semibold uppercase tracking-wider text-[var(--color-navy-600)]">
-            {t("eyebrow")}
-          </span>
-          <h2 className="mt-3 text-3xl font-extrabold leading-tight text-[var(--color-ink)] sm:text-4xl md:text-5xl">
-            {t("title")}
-          </h2>
-          <p className="mt-4 text-base leading-relaxed text-[var(--color-ink)]/70">
-            {t("subtitle")}
-          </p>
-        </Reveal>
-
-        <div className="mt-14 grid gap-8 lg:grid-cols-5 lg:gap-10">
-          <div className="space-y-6 lg:col-span-2">
+        <div className="grid gap-5 lg:grid-cols-5 lg:gap-10">
+          <div className="space-y-3 md:space-y-6 lg:col-span-2">
             <Reveal className="overflow-hidden rounded-2xl border border-[var(--color-border)]">
               <iframe
                 title="SAŠA KOMERC — map"
                 src={mapsEmbedUrl()}
-                className="h-56 w-full"
+                className="h-44 w-full md:h-56"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
@@ -106,7 +94,7 @@ export default async function Contact() {
                 <div className="flex items-start gap-2 text-sm text-[var(--color-ink)]/75">
                   <MapPin size={16} className="mt-0.5 shrink-0 text-[var(--color-navy-600)]" />
                   <span>
-                    {siteConfig.address.full}
+                    {t("addressValue")}
                     <span className="block text-xs text-[var(--color-ink)]/50">
                       {t("addressNote")}
                     </span>
@@ -117,14 +105,14 @@ export default async function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={t("getDirections")}
-                  className="flex shrink-0 items-center gap-1 text-xs font-semibold text-[var(--color-navy-700)] hover:text-[var(--color-navy-600)]"
+                  className="flex shrink-0 items-center gap-1 p-2.5 text-xs font-semibold text-[var(--color-navy-700)] hover:text-[var(--color-navy-600)]"
                 >
-                  <ExternalLink size={13} />
+                  <ExternalLink size={18} />
                 </a>
               </div>
             </Reveal>
 
-            <Reveal delay={0.05} className="flex items-center gap-3 rounded-2xl border border-[var(--color-border)] bg-white p-5">
+            <Reveal delay={0.05} className="flex items-center gap-3 rounded-2xl border border-[var(--color-border)] bg-white p-4 md:p-5">
               <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[var(--color-amber)]/15 text-[var(--color-amber)]">
                 <Clock size={20} />
               </div>
@@ -136,7 +124,7 @@ export default async function Contact() {
               </div>
             </Reveal>
 
-            <RevealGroup className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1" stagger={0.1}>
+            <RevealGroup className="grid gap-3 sm:grid-cols-2 md:gap-4 lg:grid-cols-1" stagger={0.1}>
               <RevealItem>
                 <PersonCard
                   name={t("people.sasa.name")}
@@ -160,7 +148,7 @@ export default async function Contact() {
             </RevealGroup>
           </div>
 
-          <Reveal delay={0.1} className="lg:col-span-3">
+          <Reveal delay={0.1} className="order-first lg:order-none lg:col-span-3">
             <QuoteForm />
           </Reveal>
         </div>

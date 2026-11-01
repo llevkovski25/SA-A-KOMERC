@@ -1,6 +1,8 @@
 import { getTranslations } from "next-intl/server";
 import { Clock, Award, ShieldCheck, UserRound, Handshake, Route } from "lucide-react";
-import { Reveal, RevealGroup, RevealItem } from "@/components/ui/Reveal";
+import { RevealGroup, RevealItem } from "@/components/ui/Reveal";
+import Emphasize from "@/components/ui/Emphasize";
+import SectionHeading from "@/components/ui/SectionHeading";
 
 const icons = [Clock, Award, ShieldCheck, UserRound, Handshake, Route];
 
@@ -9,34 +11,26 @@ export default async function WhyUs() {
   const items = t.raw("items") as { title: string; description: string }[];
 
   return (
-    <section className="section-pad bg-[var(--color-surface-alt)]">
+    <section className="section-pad bg-white">
       <div className="container-page">
-        <Reveal className="mx-auto max-w-2xl text-center">
-          <span className="text-sm font-semibold uppercase tracking-wider text-[var(--color-navy-600)]">
-            {t("eyebrow")}
-          </span>
-          <h2 className="mt-3 text-3xl font-extrabold leading-tight text-[var(--color-ink)] sm:text-4xl md:text-5xl">
-            {t("title")}
-          </h2>
-        </Reveal>
+        <SectionHeading title={t("title")} />
 
-        <RevealGroup className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3" stagger={0.1}>
+        <RevealGroup className="mt-6 grid grid-cols-2 gap-3 md:mt-12 md:gap-5 lg:grid-cols-3" stagger={0.1}>
           {items.map((item, i) => {
             const Icon = icons[i % icons.length];
             return (
-              <RevealItem
-                key={item.title}
-                className="group rounded-2xl border border-[var(--color-border)] bg-white p-7 transition-all hover:-translate-y-1 hover:border-transparent hover:shadow-xl hover:shadow-black/[0.06]"
-              >
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[var(--color-navy-800)]/8 text-[var(--color-navy-700)] transition-colors group-hover:bg-[var(--color-navy-700)] group-hover:text-white">
-                  <Icon size={22} strokeWidth={1.75} />
+              <RevealItem key={item.title}>
+                <div className="group flex h-full flex-col items-center rounded-2xl border-2 border-[var(--color-border)] bg-white p-3.5 text-center transition-all duration-300 hover:-translate-y-2 hover:border-[var(--color-amber)] hover:shadow-xl hover:shadow-[var(--color-amber)]/25 md:p-6">
+                  <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[var(--color-navy-800)] text-white transition-all duration-500 group-hover:rotate-[360deg] group-hover:scale-110 group-hover:bg-[var(--color-amber)] group-hover:text-[var(--color-navy-900)] md:h-16 md:w-16">
+                    <Icon strokeWidth={2} className="size-[22px] md:size-[26px]" />
+                  </span>
+                  <h3 className="mt-2.5 font-[family-name:var(--font-heading)] text-sm font-extrabold leading-snug text-[var(--color-ink)] md:mt-4 md:text-lg">
+                    {item.title}
+                  </h3>
+                  <p className="mt-2 hidden text-sm leading-relaxed text-[var(--color-ink)]/75 md:block">
+                    <Emphasize text={item.description} />
+                  </p>
                 </div>
-                <h3 className="mt-5 font-[family-name:var(--font-heading)] text-lg font-bold text-[var(--color-ink)]">
-                  {item.title}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-[var(--color-ink)]/70">
-                  {item.description}
-                </p>
               </RevealItem>
             );
           })}

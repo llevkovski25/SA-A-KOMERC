@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Truck, Route, Network, Check, ArrowRight, ArrowLeft } from "lucide-react";
@@ -8,6 +7,8 @@ import { routing } from "@/i18n/routing";
 import { getServiceBySlug, serviceSlugs } from "@/lib/services";
 import { siteConfig } from "@/lib/site";
 import { Reveal } from "@/components/ui/Reveal";
+import Emphasize from "@/components/ui/Emphasize";
+import PageBanner from "@/components/ui/PageBanner";
 
 const icons = { truck: Truck, route: Route, network: Network };
 const iconKeys: Record<string, keyof typeof icons> = {
@@ -62,67 +63,51 @@ export default async function ServiceDetailPage({
 
   const t = await getTranslations("services");
   const tNav = await getTranslations("nav");
-  const Icon = icons[iconKeys[service.key]];
   const bullets = t.raw(`items.${service.key}.bullets`) as string[];
 
   const otherServices = serviceSlugs.filter((s) => s.slug !== slug);
 
   return (
     <>
-      <section className="relative overflow-hidden bg-[var(--color-surface-dark)] pt-32 pb-24 md:pb-32">
-        <div className="absolute inset-0">
-          <Image src={service.image} alt="" fill className="object-cover opacity-30" sizes="100vw" priority />
-          <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-surface-dark)] via-[var(--color-surface-dark)]/70 to-[var(--color-surface-dark)]/40" />
-        </div>
-        <div className="container-page relative">
-          <Reveal>
-            <Link
-              href="/#services"
-              className="inline-flex items-center gap-1.5 text-sm font-medium text-white/60 transition-colors hover:text-white"
-            >
-              <ArrowLeft size={15} />
-              {tNav("services")}
-            </Link>
-          </Reveal>
-          <Reveal delay={0.1}>
-            <div className="mt-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-white/10 text-white backdrop-blur-sm">
-              <Icon size={30} strokeWidth={1.75} />
-            </div>
-            <h1 className="mt-6 max-w-3xl text-3xl font-extrabold leading-tight text-white sm:text-4xl md:text-5xl">
-              {t(`items.${service.key}.title`)}
-            </h1>
-            <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/75 md:text-lg">
-              {t(`items.${service.key}.summary`)}
-            </p>
-          </Reveal>
-        </div>
-      </section>
+      <PageBanner
+        title={t(`items.${service.key}.title`)}
+        subtitle={t(`items.${service.key}.summary`)}
+        image={service.image}
+      >
+        <Link
+          href="/#services"
+          className="mb-2 inline-flex items-center gap-1.5 py-2 text-sm font-medium text-white/80 transition-colors hover:text-white"
+        >
+          <ArrowLeft size={15} />
+          {tNav("services")}
+        </Link>
+      </PageBanner>
 
       <section className="section-pad bg-white">
-        <div className="container-page grid gap-14 lg:grid-cols-3 lg:gap-16">
+        <div className="container-page grid gap-6 md:gap-10 lg:grid-cols-3 lg:gap-14">
           <div className="lg:col-span-2">
             <Reveal>
-              <p className="text-base leading-relaxed text-[var(--color-ink)]/75 md:text-lg">
-                {t(`items.${service.key}.detail`)}
+              <p className="text-[15px] leading-relaxed text-[var(--color-ink)]/80 md:text-base">
+                <Emphasize text={t(`items.${service.key}.detail`)} />
               </p>
             </Reveal>
 
-            <Reveal delay={0.1} className="mt-10 grid gap-3 sm:grid-cols-2">
+            <Reveal delay={0.1} className="mt-5 grid gap-2.5 sm:grid-cols-2 md:mt-10 md:gap-3">
               {bullets.map((bullet) => (
                 <div
                   key={bullet}
-                  className="flex items-start gap-3 rounded-xl border border-[var(--color-border)] bg-[var(--color-surface-alt)] p-4"
+                  className="group flex items-start gap-3 rounded-xl border-2 border-[var(--color-border)] bg-[var(--color-surface-alt)] p-3 transition-all md:p-4 duration-300 hover:-translate-y-1 hover:border-[var(--color-amber)] hover:bg-white hover:shadow-lg hover:shadow-[var(--color-amber)]/25"
                 >
-                  <Check size={18} className="mt-0.5 shrink-0 text-[var(--color-navy-600)]" />
-                  <span className="text-sm text-[var(--color-ink)]/80">{bullet}</span>
+                  <Check size={18} strokeWidth={3} className="mt-0.5 shrink-0 text-[var(--color-amber)] transition-transform duration-300 group-hover:scale-125" />
+                  <span className="text-sm font-semibold text-[var(--color-ink)]/85">{bullet}</span>
                 </div>
               ))}
             </Reveal>
 
-            <Reveal delay={0.15} className="mt-10">
+            <Reveal delay={0.15} className="mt-5 md:mt-10">
               <Link
-                href="/#contact"
-                className="inline-flex items-center gap-2 rounded-full bg-[var(--color-navy-700)] px-7 py-3.5 text-sm font-semibold text-white shadow-md shadow-[var(--color-navy-700)]/25 transition-all hover:bg-[var(--color-navy-600)] md:text-base"
+                href="/contact"
+                className="btn-accent inline-flex w-full items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm sm:w-auto md:text-base"
               >
                 {tNav("getQuote")}
                 <ArrowRight size={16} />
@@ -142,7 +127,7 @@ export default async function ServiceDetailPage({
                     <li key={s.slug}>
                       <Link
                         href={`/services/${s.slug}`}
-                        className="group flex items-center gap-3 rounded-xl bg-white p-3.5 transition-shadow hover:shadow-md"
+                        className="group flex items-center gap-3 rounded-xl bg-white p-3.5 transition-all duration-300 hover:translate-x-1 hover:shadow-md"
                       >
                         <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[var(--color-navy-800)]/8 text-[var(--color-navy-700)]">
                           <OtherIcon size={18} />

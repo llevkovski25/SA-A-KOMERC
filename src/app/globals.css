@@ -30,8 +30,6 @@
   --color-amber: var(--color-amber);
   --font-heading: var(--font-heading);
   --font-body: var(--font-body);
-  --animate-marquee: marquee 32s linear infinite;
-  --animate-pulse-dot: pulse-dot 2.2s ease-in-out infinite;
 }
 
 @keyframes marquee {
@@ -43,48 +41,76 @@
   }
 }
 
-@keyframes pulse-dot {
+@keyframes kenburns {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.12);
+  }
+}
+
+@keyframes float {
   0%,
   100% {
-    box-shadow: 0 0 0 0 rgba(47, 69, 214, 0.45);
+    transform: translateY(0);
   }
   50% {
-    box-shadow: 0 0 0 10px rgba(47, 69, 214, 0);
+    transform: translateY(-10px);
   }
 }
 
-@keyframes kenburns {
+@keyframes shine {
   0% {
-    transform: scale(1) translate(0, 0);
+    left: -60%;
   }
+  60%,
   100% {
-    transform: scale(1.12) translate(-1%, -1%);
+    left: 130%;
   }
 }
 
-@keyframes light-streak {
-  0% {
-    transform: translateX(-30%) translateY(-10%) rotate(8deg);
-    opacity: 0;
-  }
-  15% {
-    opacity: 0.18;
-  }
-  50% {
-    opacity: 0.1;
-  }
-  100% {
-    transform: translateX(130%) translateY(10%) rotate(8deg);
-    opacity: 0;
-  }
+.animate-marquee {
+  animation: marquee 28s linear infinite;
 }
 
 .animate-kenburns {
-  animation: kenburns 18s ease-out forwards;
+  animation: kenburns 16s ease-in-out infinite alternate;
 }
 
-.animate-light-streak {
-  animation: light-streak 7s ease-in-out infinite;
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.btn-accent {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-amber);
+  color: var(--color-navy-900);
+  font-weight: 800;
+  box-shadow: 0 10px 28px -10px rgba(245, 166, 35, 0.8);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-accent:hover {
+  transform: translateY(-3px) scale(1.04);
+  box-shadow: 0 16px 34px -10px rgba(245, 166, 35, 0.95);
+}
+
+.btn-accent:active {
+  transform: scale(0.98);
+}
+
+.btn-accent::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -60%;
+  width: 40%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.65), transparent);
+  animation: shine 3.2s ease-in-out infinite;
+  pointer-events: none;
 }
 
 html {
@@ -127,7 +153,7 @@ h6 {
 
 .container-page {
   width: 100%;
-  max-width: 90rem;
+  max-width: 75rem;
   margin-inline: auto;
   padding-inline: 1.25rem;
 }
@@ -138,12 +164,44 @@ h6 {
   }
 }
 
+.container-wide {
+  width: 100%;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .container-wide {
+    padding-inline: 2.5rem;
+  }
+}
+
 .section-pad {
-  padding-block: 5rem;
+  padding-block: 2.5rem;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.mobile-bar {
+  padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
+}
+
+.mobile-bar-spacer {
+  height: calc(3.75rem + env(safe-area-inset-bottom));
+}
+
+/* The keyboard needs the room while a form field is being filled in. */
+body:has(input:focus, textarea:focus) .mobile-bar {
+  display: none;
 }
 
 @media (min-width: 768px) {
   .section-pad {
-    padding-block: 7.5rem;
+    padding-block: 4.5rem;
   }
 }

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Manrope, Inter } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -9,6 +9,8 @@ import { routing } from "@/i18n/routing";
 import { siteConfig } from "@/lib/site";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import MobileActionBar from "@/components/layout/MobileActionBar";
+import MotionProvider from "@/components/ui/MotionProvider";
 import "../globals.css";
 
 const manrope = Manrope({
@@ -22,6 +24,11 @@ const inter = Inter({
   subsets: ["latin", "latin-ext", "cyrillic", "cyrillic-ext"],
   weight: ["400", "500", "600", "700"],
 });
+
+export const viewport: Viewport = {
+  themeColor: "#10175c",
+  viewportFit: "cover",
+};
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -126,9 +133,12 @@ export default async function LocaleLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <NextIntlClientProvider>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
+          <MotionProvider>
+            <Header />
+            <main className="flex-1">{children}</main>
+            <Footer />
+            <MobileActionBar />
+          </MotionProvider>
         </NextIntlClientProvider>
         <Analytics />
         <SpeedInsights />

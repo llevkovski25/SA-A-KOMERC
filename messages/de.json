@@ -44,8 +44,6 @@
     "about": "Über uns",
     "services": "Leistungen",
     "fleet": "LKW-Netzwerk",
-    "partners": "Partner",
-    "process": "So arbeiten wir",
     "contact": "Kontakt",
     "getQuote": "Angebot anfordern",
     "callUs": "Rufen Sie uns an"
@@ -53,7 +51,7 @@
   "hero": {
     "eyebrow": "Internationaler Transport & Spedition seit 1992",
     "title": "Ihre Ladung, unsere Verantwortung.",
-    "subtitle": "SAŠA KOMERC ist ein Unternehmen mit langjähriger Erfahrung in der Organisation und Koordination des internationalen Transports in ganz Europa. Wir verbinden Ihr Unternehmen mit zuverlässigem Transport und professionellem Service — vom ersten Anruf bis zur erfolgreichen Zustellung.",
+    "subtitle": "Wir verbinden Ihr Unternehmen mit zuverlässigem Transport und professionellem Service — vom ersten Anruf bis zur erfolgreichen Zustellung.",
     "ctaPrimary": "Angebot anfordern",
     "ctaSecondary": "Kontaktieren Sie uns",
     "scrollHint": "Scrollen",
@@ -71,6 +69,7 @@
   "about": {
     "eyebrow": "Unsere Geschichte",
     "title": "34 Jahre auf Europas Straßen",
+    "intro": "SAŠA KOMERC ist ein Unternehmen mit langjähriger Erfahrung in der Organisation und Koordination des internationalen Transports in ganz Europa.",
     "paragraph1": "SAŠA KOMERC DOOEL wurde 1992 von Saša Spasovski gegründet, zu einer Zeit, als internationaler Transport aus Mazedonien mehr erforderte als nur einen Fuhrpark — es brauchte Ausdauer, Ansehen und persönliche Beziehungen, die über Jahre aufgebaut wurden. Was als bescheidenes Unternehmen begann, ist zu einer anerkannten Speditionsfirma herangewachsen, die heute ein Netzwerk von über 40 LKW koordiniert und täglich Kunden aus Skopje mit Zielen in ganz West- und Nordeuropa verbindet.",
     "paragraph2": "Über all diese Jahrzehnte ist die Philosophie dieselbe geblieben: Jede Sendung wird persönlich behandelt, jede Frist wird eingehalten wie die eigene, und jeder Kunde spricht direkt mit den Menschen, die das Geschäft tatsächlich führen. Genau diese Nähe — verbunden mit einem Ernst auf europäischem Niveau — hat es uns ermöglicht, eine langfristige Partnerschaft mit LKW Walter aufzubauen, einer der führenden Transportorganisationen Europas, und das Vertrauen von Partnern zu gewinnen, die Beständigkeit brauchen, nicht nur Transport.",
     "paragraph3": "Heute arbeitet das Team von SAŠA KOMERC, geführt vom Gründer Saša Spasovski und Marija Jordanova, mit derselben Hingabe weiter, mit der das Unternehmen vor mehr als drei Jahrzehnten gegründet wurde — rund um die Uhr, sieben Tage die Woche erreichbar, für jeden Kunden, der einen Partner braucht, auf den er sich wirklich verlassen kann.",
@@ -169,6 +168,7 @@
   "partner": {
     "eyebrow": "Strategische Partnerschaft",
     "title": "Teil des LKW-Walter-Netzwerks",
+    "short": "Diese Partnerschaft ist nicht nur eine geschäftliche Vereinbarung — sie ist eine Bestätigung der Qualität und des Ernstes, mit dem SAŠA KOMERC seit drei Jahrzehnten arbeitet.",
     "paragraph1": "LKW Walter (Internationale Transportorganisation AG) ist eine der führenden internationalen Transportorganisationen Europas mit Sitz in Österreich und einem Frachtführernetzwerk, das Tausende von Fahrzeugen auf dem gesamten Kontinent umfasst. SAŠA KOMERC ist seit langer Zeit stolzer Partner dieses Netzwerks, was uns Zugang zu zusätzlichen Ladungen, Aufliegern und logistischer Unterstützung in ganz West- und Nordeuropa verschafft.",
     "paragraph2": "Diese Partnerschaft ist nicht nur eine geschäftliche Vereinbarung — sie ist eine Bestätigung der Qualität und des Ernstes, mit dem SAŠA KOMERC seit drei Jahrzehnten arbeitet. Um Teil des LKW-Walter-Netzwerks zu sein, müssen strenge Standards für Sicherheit, Qualität und Zuverlässigkeit fortlaufend erfüllt werden, und unser Team verfügt über Zertifikate, die genau das bestätigen."
   },

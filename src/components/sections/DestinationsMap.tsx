@@ -3,17 +3,26 @@
 import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Emphasize from "@/components/ui/Emphasize";
 import { cn } from "@/lib/utils";
 
-type Point = { id: string; x: number; y: number; label: string; image?: string };
+type Point = {
+  id: string;
+  x: number;
+  y: number;
+  label: string;
+  image?: string;
+  /** Where the label sits around the dot, so close neighbours don't overlap. */
+  labelClass?: string;
+};
 
 const origin: Point = { id: "origin", x: 61, y: 82, label: "" };
 
 const points: Point[] = [
-  { id: "sweden", x: 62, y: 8, label: "", image: "/images/destinations/destination-sweden.jpg" },
-  { id: "netherlands", x: 33, y: 38, label: "", image: "/images/destinations/destination-netherlands.jpg" },
-  { id: "germany", x: 43, y: 46, label: "", image: "/images/destinations/destination-germany.jpg" },
-  { id: "belgium", x: 27, y: 45, label: "" },
+  { id: "sweden", x: 62, y: 8, label: "", image: "/images/destinations/destination-sweden.jpg", labelClass: "left-[80%] top-1/2 -translate-y-1/2" },
+  { id: "netherlands", x: 33, y: 38, label: "", image: "/images/destinations/destination-netherlands.jpg", labelClass: "bottom-[70%] left-1/2 -translate-x-1/2" },
+  { id: "germany", x: 43, y: 46, label: "", image: "/images/destinations/destination-germany.jpg", labelClass: "left-[80%] top-1/2 -translate-y-1/2" },
+  { id: "belgium", x: 27, y: 45, label: "", labelClass: "right-1/4 top-[75%]" },
 ];
 
 function arcPath(from: Point, to: Point) {
@@ -32,8 +41,8 @@ export default function DestinationsMap({
   const [hovered, setHovered] = useState<string | null>(null);
 
   return (
-    <div className="grid gap-10 lg:grid-cols-5 lg:gap-8">
-      <div className="relative overflow-hidden rounded-3xl bg-[var(--color-surface-dark)] p-4 lg:col-span-3">
+    <div className="grid gap-3 md:gap-10 lg:grid-cols-5 lg:gap-8">
+      <div className="relative overflow-hidden rounded-2xl bg-[var(--color-surface-dark)] p-3 md:rounded-3xl md:p-4 lg:col-span-3">
         <div
           aria-hidden
           className="absolute inset-0 opacity-[0.15]"
@@ -47,7 +56,7 @@ export default function DestinationsMap({
           <svg
             viewBox="0 0 100 100"
             className="absolute inset-0 h-full w-full"
-            preserveAspectRatio="xMidYMid meet"
+            preserveAspectRatio="none"
           >
             {points.map((p) => {
               const active = hovered === null || hovered === p.id;
@@ -56,8 +65,8 @@ export default function DestinationsMap({
                   key={p.id}
                   d={arcPath(origin, p)}
                   fill="none"
-                  stroke={hovered === p.id ? "#F5A623" : "#4256E8"}
-                  strokeWidth={hovered === p.id ? 0.6 : 0.35}
+                  stroke={hovered === p.id ? "#FFFFFF" : "#F5A623"}
+                  strokeWidth={hovered === p.id ? 0.7 : 0.45}
                   strokeLinecap="round"
                   strokeDasharray="2 2"
                   initial={{ pathLength: 0, opacity: 0 }}
@@ -77,7 +86,7 @@ export default function DestinationsMap({
             <span className="relative flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[var(--color-amber)]">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[var(--color-amber)] opacity-60" />
             </span>
-            <span className="rounded-full bg-white px-2.5 py-1 text-[11px] font-semibold text-[var(--color-ink)] shadow-md">
+            <span className="whitespace-nowrap rounded-full bg-[var(--color-amber)] px-2.5 py-1 text-[11px] font-extrabold text-[var(--color-navy-900)] shadow-md">
               {originLabel}
             </span>
           </button>
@@ -93,7 +102,8 @@ export default function DestinationsMap({
                 onMouseLeave={() => setHovered(null)}
                 onFocus={() => setHovered(p.id)}
                 onBlur={() => setHovered(null)}
-                className="absolute flex -translate-x-1/2 -translate-y-1/2 cursor-pointer flex-col items-center gap-1.5"
+                aria-label={country.name}
+                className="absolute flex h-11 w-11 -translate-x-1/2 -translate-y-1/2 cursor-pointer items-center justify-center"
                 style={{ left: `${p.x}%`, top: `${p.y}%` }}
               >
                 <span
@@ -104,7 +114,8 @@ export default function DestinationsMap({
                 />
                 <span
                   className={cn(
-                    "whitespace-nowrap rounded-full bg-white/95 px-2.5 py-1 text-[11px] font-semibold text-[var(--color-ink)] shadow-md transition-transform",
+                    "absolute whitespace-nowrap rounded-full bg-white/95 px-2.5 py-1 text-[11px] font-bold text-[var(--color-ink)] shadow-md transition-transform",
+                    p.labelClass,
                     hovered === p.id && "scale-105"
                   )}
                 >
@@ -116,7 +127,7 @@ export default function DestinationsMap({
         </div>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-1">
+      <div className="grid grid-cols-2 gap-3 md:gap-4 lg:col-span-2 lg:grid-cols-1">
         {countries.map((country) => {
           const point = points.find((p) => p.id === country.id);
           return (
@@ -125,13 +136,13 @@ export default function DestinationsMap({
               onMouseEnter={() => setHovered(country.id)}
               onMouseLeave={() => setHovered(null)}
               className={cn(
-                "flex items-center gap-4 rounded-2xl border p-4 transition-all",
+                "flex items-center gap-2.5 rounded-xl border-2 p-2 transition-all duration-300 md:gap-4 md:rounded-2xl md:p-4",
                 hovered === country.id
-                  ? "border-[var(--color-navy-600)] bg-[var(--color-surface-alt)] shadow-md"
+                  ? "-translate-y-1 border-[var(--color-amber)] bg-white shadow-lg shadow-[var(--color-amber)]/25"
                   : "border-[var(--color-border)] bg-white"
               )}
             >
-              <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-[var(--color-surface-alt)]">
+              <div className="relative h-10 w-10 shrink-0 overflow-hidden rounded-lg bg-[var(--color-surface-alt)] md:h-14 md:w-14 md:rounded-xl">
                 {point?.image ? (
                   <Image src={point.image} alt="" fill className="object-cover" sizes="56px" />
                 ) : (
@@ -143,11 +154,11 @@ export default function DestinationsMap({
                 )}
               </div>
               <div>
-                <p className="font-[family-name:var(--font-heading)] font-bold text-[var(--color-ink)]">
+                <p className="font-[family-name:var(--font-heading)] text-sm font-extrabold text-[var(--color-ink)] md:text-base">
                   {country.name}
                 </p>
-                <p className="mt-0.5 text-xs leading-relaxed text-[var(--color-ink)]/65">
-                  {country.description}
+                <p className="mt-0.5 hidden text-xs leading-relaxed text-[var(--color-ink)]/75 md:block">
+                  <Emphasize text={country.description} />
                 </p>
               </div>
             </div>

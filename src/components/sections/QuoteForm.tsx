@@ -48,7 +48,7 @@ function Field({
 }
 
 const inputClass =
-  "w-full rounded-xl border border-[var(--color-border)] bg-white px-4 py-2.5 text-[15px] text-[var(--color-ink)] outline-none transition-colors placeholder:text-[var(--color-ink)]/35 focus:border-[var(--color-navy-600)] focus:ring-2 focus:ring-[var(--color-navy-600)]/15";
+  "w-full min-w-0 rounded-xl border border-[var(--color-border)] bg-white px-4 py-3 text-base md:py-2.5 md:text-[15px] text-[var(--color-ink)] outline-none transition-colors placeholder:text-[var(--color-ink)]/35 focus:border-[var(--color-navy-600)] focus:ring-2 focus:ring-[var(--color-navy-600)]/15";
 
 export default function QuoteForm() {
   const t = useTranslations("contact.form");
@@ -128,25 +128,25 @@ export default function QuoteForm() {
     <form
       onSubmit={handleSubmit(onSubmit)}
       noValidate
-      className="rounded-3xl border border-[var(--color-border)] bg-white p-6 shadow-sm shadow-black/[0.03] md:p-8"
+      className="rounded-2xl border border-[var(--color-border)] bg-white p-4 shadow-sm shadow-black/[0.03] md:rounded-3xl md:p-8"
     >
       <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-[var(--color-ink)]">
         {t("title")}
       </h3>
       <p className="mt-1.5 text-sm text-[var(--color-ink)]/65">{t("subtitle")}</p>
 
-      <div className="mt-6 grid gap-5 sm:grid-cols-2">
+      <div className="mt-5 grid gap-4 sm:grid-cols-2 md:mt-6 md:gap-5">
         <Field label={t("name")} htmlFor="name" required error={errors.name?.message}>
-          <input id="name" className={inputClass} placeholder={t("namePlaceholder")} {...register("name")} />
+          <input id="name" autoComplete="name" className={inputClass} placeholder={t("namePlaceholder")} {...register("name")} />
         </Field>
         <Field label={t("company")} htmlFor="company">
-          <input id="company" className={inputClass} placeholder={t("companyPlaceholder")} {...register("company")} />
+          <input id="company" autoComplete="organization" className={inputClass} placeholder={t("companyPlaceholder")} {...register("company")} />
         </Field>
         <Field label={t("phone")} htmlFor="phone" required error={errors.phone?.message}>
-          <input id="phone" type="tel" className={inputClass} placeholder={t("phonePlaceholder")} {...register("phone")} />
+          <input id="phone" type="tel" inputMode="tel" autoComplete="tel" className={inputClass} placeholder={t("phonePlaceholder")} {...register("phone")} />
         </Field>
         <Field label={t("email")} htmlFor="email" required error={errors.email?.message}>
-          <input id="email" type="email" className={inputClass} placeholder={t("emailPlaceholder")} {...register("email")} />
+          <input id="email" type="email" inputMode="email" autoComplete="email" className={inputClass} placeholder={t("emailPlaceholder")} {...register("email")} />
         </Field>
         <Field label={t("originCountry")} htmlFor="originCountry" required error={errors.originCountry?.message}>
           <input id="originCountry" className={inputClass} placeholder={t("originPlaceholder")} {...register("originCountry")} />
@@ -161,15 +161,15 @@ export default function QuoteForm() {
           <input id="weight" className={inputClass} placeholder={t("weightPlaceholder")} {...register("weight")} />
         </Field>
         <Field label={t("date")} htmlFor="date">
-          <input id="date" type="date" className={inputClass} {...register("date")} />
+          <input id="date" type="date" className={cn(inputClass, "appearance-none")} {...register("date")} />
         </Field>
       </div>
 
-      <div className="mt-5">
+      <div className="mt-4 md:mt-5">
         <Field label={t("message")} htmlFor="message">
           <textarea
             id="message"
-            rows={4}
+            rows={3}
             className={cn(inputClass, "resize-none")}
             placeholder={t("messagePlaceholder")}
             {...register("message")}
@@ -193,7 +193,7 @@ export default function QuoteForm() {
       <button
         type="submit"
         disabled={status === "submitting"}
-        className="mt-7 flex w-full cursor-pointer items-center justify-center gap-2 rounded-full bg-[var(--color-navy-700)] px-6 py-3.5 text-sm font-semibold text-white shadow-md shadow-[var(--color-navy-700)]/25 transition-all hover:bg-[var(--color-navy-600)] disabled:cursor-not-allowed disabled:opacity-70 md:text-base"
+        className="btn-accent mt-7 flex w-full cursor-pointer items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm disabled:cursor-not-allowed disabled:opacity-70 md:text-base"
       >
         {status === "submitting" && <Loader2 size={18} className="animate-spin" />}
         {status === "submitting" ? t("submitting") : t("submit")}
