@@ -83,7 +83,7 @@ export async function POST(request: Request) {
         model,
         stream: true,
         store: false,
-        system_instruction: `${assistantInstructions}\n\nThe visitor is on the ${localeLabels[locale].name} version of the site.`,
+        system_instruction: `${assistantInstructions}\n\nThe visitor is on the ${localeLabels[locale].name} version of the site. Write your whole answer in the language of their latest message, translating the company information, which is in Macedonian.`,
         generation_config: { max_output_tokens: 1000, thinking_level: "low" },
         input: history.map((message) => ({
           type: message.role === "user" ? ("user_input" as const) : ("model_output" as const),
