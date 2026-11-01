@@ -304,6 +304,23 @@
     "rights": "Alle Rechte vorbehalten.",
     "einNote": "Handelsregisternummer / USt-IdNr.: /"
   },
+  "assistant": {
+    "title": "KI-Assistent",
+    "open": "KI-Assistenten öffnen",
+    "close": "Schließen",
+    "greeting": "Hallo! Ich bin der KI-Assistent von SAŠA KOMERC. Fragen Sie mich nach unseren Leistungen, Routen und wie Sie ein Angebot anfordern.",
+    "suggestions": [
+      "Welche Leistungen bieten Sie an?",
+      "In welche Länder transportieren Sie?",
+      "Wie fordere ich ein Angebot an?"
+    ],
+    "placeholder": "Frage eingeben...",
+    "send": "Senden",
+    "thinking": "Der Assistent schreibt",
+    "disclaimer": "KI kann Fehler machen. Preise und Termine bestätigt unser Team. Nachrichten werden von Google verarbeitet, geben Sie daher keine persönlichen Daten ein.",
+    "errorGeneric": "Ich kann gerade nicht antworten. Rufen Sie uns an, wir sind rund um die Uhr erreichbar.",
+    "errorRateLimit": "Sie haben in kurzer Zeit viele Nachrichten gesendet. Versuchen Sie es in einigen Minuten erneut oder rufen Sie uns an."
+  },
   "common": {
     "callUs": "Rufen Sie uns an",
     "whatsapp": "WhatsApp",

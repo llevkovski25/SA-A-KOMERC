@@ -196,8 +196,39 @@ h6 {
 }
 
 /* The keyboard needs the room while a form field is being filled in. */
-body:has(input:focus, textarea:focus) .mobile-bar {
+body:has(input:focus, textarea:focus) .mobile-bar,
+body:has(input:focus, textarea:focus) .assistant-launcher {
   display: none;
+}
+
+.assistant-launcher {
+  bottom: calc(4.5rem + env(safe-area-inset-bottom));
+}
+
+.assistant-panel {
+  inset-inline: 0;
+  top: var(--assistant-top, 0);
+  height: var(--assistant-height, 100dvh);
+}
+
+.assistant-composer {
+  padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
+}
+
+@media (min-width: 640px) {
+  .assistant-panel {
+    inset-inline: auto 1.5rem;
+    top: auto;
+    bottom: 1.5rem;
+    width: 24.5rem;
+    height: min(38rem, calc(100dvh - 3rem));
+  }
+}
+
+@media (min-width: 1024px) {
+  .assistant-launcher {
+    bottom: 1.5rem;
+  }
 }
 
 @media (min-width: 768px) {

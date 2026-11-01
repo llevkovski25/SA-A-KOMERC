@@ -304,6 +304,23 @@
     "rights": "Sva prava zadržana.",
     "einNote": "PIB / Matični broj: /"
   },
+  "assistant": {
+    "title": "AI asistent",
+    "open": "Otvori AI asistenta",
+    "close": "Zatvori",
+    "greeting": "Zdravo! Ja sam AI asistent kompanije SAŠA KOMERC. Pitajte me o našim uslugama, rutama i kako da zatražite ponudu.",
+    "suggestions": [
+      "Koje usluge nudite?",
+      "U koje zemlje prevozite?",
+      "Kako da zatražim ponudu?"
+    ],
+    "placeholder": "Napišite pitanje...",
+    "send": "Pošalji",
+    "thinking": "Asistent piše",
+    "disclaimer": "AI može da pogreši. Cene i termine potvrđuje naš tim. Poruke obrađuje Google, zato ne unosite lične podatke.",
+    "errorGeneric": "Trenutno ne mogu da odgovorim. Pozovite nas, dostupni smo 24/7.",
+    "errorRateLimit": "Poslali ste mnogo poruka za kratko vreme. Pokušajte ponovo za nekoliko minuta ili nas pozovite."
+  },
   "common": {
     "callUs": "Pozovite nas",
     "whatsapp": "WhatsApp",

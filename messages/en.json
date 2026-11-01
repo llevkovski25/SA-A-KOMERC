@@ -304,6 +304,23 @@
     "rights": "All rights reserved.",
     "einNote": "Company ID / VAT: /"
   },
+  "assistant": {
+    "title": "AI assistant",
+    "open": "Open the AI assistant",
+    "close": "Close",
+    "greeting": "Hello! I'm the AI assistant of SAŠA KOMERC. Ask me about our services, routes and how to request a quote.",
+    "suggestions": [
+      "What services do you offer?",
+      "Which countries do you cover?",
+      "How do I request a quote?"
+    ],
+    "placeholder": "Type a question...",
+    "send": "Send",
+    "thinking": "The assistant is typing",
+    "disclaimer": "AI can make mistakes. Our team confirms prices and dates. Messages are processed by Google, so please don't enter personal information.",
+    "errorGeneric": "I can't answer right now. Please call us, we're available 24/7.",
+    "errorRateLimit": "You've sent a lot of messages in a short time. Please try again in a few minutes or call us."
+  },
   "common": {
     "callUs": "Call Us",
     "whatsapp": "WhatsApp",

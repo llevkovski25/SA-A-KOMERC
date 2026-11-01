@@ -10,6 +10,7 @@ import { siteConfig } from "@/lib/site";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import MobileActionBar from "@/components/layout/MobileActionBar";
+import AssistantWidget from "@/components/layout/AssistantWidget";
 import MotionProvider from "@/components/ui/MotionProvider";
 import "../globals.css";
 
@@ -138,6 +139,7 @@ export default async function LocaleLayout({
             <main className="flex-1">{children}</main>
             <Footer />
             <MobileActionBar />
+            {process.env.GEMINI_API_KEY && <AssistantWidget />}
           </MotionProvider>
         </NextIntlClientProvider>
         <Analytics />
