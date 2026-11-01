@@ -21,12 +21,17 @@ function RichText({ text: source, onNavigate }: { text: string; onNavigate: () =
   let last = 0;
 
   for (const match of text.matchAll(richText)) {
-    const [whole, bold, label, href] = match;
+    const [whole, bold, label, target] = match;
+    const href = target?.replace(/^https:\/\/(www\.)?sasakomerc\.mk(?=\/)/, "");
     nodes.push(text.slice(last, match.index));
     last = match.index + whole.length;
 
     if (bold) {
-      nodes.push(<strong key={last}>{bold}</strong>);
+      nodes.push(
+        <strong key={last}>
+          <RichText text={bold} onNavigate={onNavigate} />
+        </strong>
+      );
     } else if (/^\/(?!\/)/.test(href)) {
       nodes.push(
         <Link key={last} href={href} onClick={onNavigate} className={linkClass}>
